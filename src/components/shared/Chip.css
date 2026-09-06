@@ -1,0 +1,42 @@
+.chip-group {
+  border: none;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.chip-group__label {
+  font-weight: 600;
+  color: var(--color-tinta);
+  padding: 0;
+  margin-bottom: 8px;
+}
+
+.chip-group__options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border: 1px solid var(--color-linea-app);
+  border-radius: 999px;
+  background: var(--color-crema-honda-app);
+  color: var(--color-tinta);
+  cursor: pointer;
+  font-size: var(--font-size-cuerpo);
+}
+
+.chip[data-selected] {
+  background: var(--color-terracota-app);
+  border-color: var(--color-terracota-app);
+  color: white;
+}
+
+.chip:focus-visible {
+  outline: 3px solid var(--color-terracota-app);
+  outline-offset: 2px;
+}

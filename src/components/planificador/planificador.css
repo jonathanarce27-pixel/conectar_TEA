@@ -1,0 +1,197 @@
+.planner-screen {
+  min-height: 100%;
+  padding: 20px 20px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  background: var(--color-crema-app);
+}
+
+.planner-screen__title {
+  font-size: var(--font-size-titulo);
+  color: var(--color-tinta);
+  text-align: center;
+  margin: 0;
+}
+
+.planner-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.planner-nav__arrow {
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--color-linea-app);
+  background: var(--color-crema-honda-app);
+  color: var(--color-terracota-app);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.planner-nav__label {
+  flex: 1;
+  text-align: center;
+  color: var(--color-tinta);
+  font-weight: 600;
+}
+
+.planner-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.planner-actions button {
+  flex: 1;
+  min-height: 48px;
+  border-radius: 12px;
+  border: 1px solid var(--color-linea-app);
+  background: var(--color-crema-honda-app);
+  color: var(--color-tinta);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.planner-day {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 16px;
+  padding: 4px;
+}
+
+/* "Ver qué toca comer hoy" (Comunicación -> Mi Semana, Flujo de App §3.1)
+   deja este día resaltado y llevado a la vista, no solo presente en el DOM. */
+.planner-day--today {
+  background: var(--color-terracota-suave);
+  padding: 10px;
+}
+
+.planner-day__title {
+  font-family: var(--font-titulo);
+  font-weight: var(--font-weight-titulo);
+  font-size: 18px;
+  color: var(--color-tinta);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.planner-day__today-badge {
+  font-family: var(--font-cuerpo);
+  font-weight: 700;
+  font-size: var(--font-size-apoyo);
+  color: var(--color-crema-app);
+  background: var(--color-terracota-app);
+  border-radius: 999px;
+  padding: 2px 10px;
+}
+
+.planner-day__slots {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.planner-slot {
+  min-height: 64px;
+  border-radius: 14px;
+  border: 1px solid var(--color-linea-app);
+  background: var(--color-crema-honda-app);
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.planner-slot__meal-label {
+  font-size: var(--font-size-apoyo);
+  color: var(--color-tinta-suave);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.planner-slot--empty {
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--color-tinta-suave);
+  min-height: 56px;
+}
+
+.planner-slot__name {
+  font-weight: 600;
+  color: var(--color-tinta);
+}
+
+.planner-slot__acceptance {
+  font-size: var(--font-size-apoyo);
+  color: var(--color-salvia-app);
+  font-weight: 600;
+}
+
+.planner-slot__row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.planner-slot__row button {
+  min-height: 40px;
+  border-radius: 10px;
+  border: 1px solid var(--color-linea-app);
+  background: white;
+  color: var(--color-tinta);
+  font-size: var(--font-size-apoyo);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.modal-sheet--full {
+  max-height: 92vh;
+}
+
+.planner-picker__close {
+  align-self: flex-end;
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: 10px;
+  border: 1px solid var(--color-linea-app);
+  background: var(--color-crema-honda-app);
+  color: var(--color-tinta);
+  cursor: pointer;
+}
+
+.shopping-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.shopping-list li {
+  display: flex;
+  justify-content: space-between;
+  min-height: 44px;
+  align-items: center;
+  padding: 0 14px;
+  background: var(--color-crema-honda-app);
+  border-radius: 12px;
+  color: var(--color-tinta);
+}

@@ -1,0 +1,27 @@
+.sos-button {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  min-height: 56px;
+  border-radius: 50%;
+  background: var(--color-rust-atencion);
+  color: var(--color-crema-app);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(59, 46, 36, 0.2);
+  z-index: 40;
+  transition: opacity var(--transition-fundido);
+}
+
+.sos-button:active {
+  opacity: 0.85;
+}
+
+.sos-button:focus-visible {
+  outline: 3px solid var(--color-tinta);
+  outline-offset: 2px;
+}

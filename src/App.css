@@ -1,0 +1,117 @@
+.home {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0 20px 32px;
+}
+
+/* Encabezado / lockup — UIUX Design Brief §7.3: banner horizontal compacto,
+   fondo Crema-app, sin degradado complejo, sin animación de scroll. */
+.header-lockup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 28px 0 20px;
+  text-align: center;
+}
+
+.header-lockup__halo {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: var(--color-salvia-suave);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-terracota-app);
+}
+
+.header-lockup__wordmark {
+  font-size: var(--font-size-titulo-grande);
+  color: var(--color-tinta);
+}
+
+.home__prompt {
+  font-size: var(--font-size-titulo);
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--color-tinta);
+}
+
+.home__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 14px;
+}
+
+.home-card {
+  min-height: var(--tap-target-nino);
+  background: var(--color-crema-honda-app);
+  border: 1px solid var(--color-linea-app);
+  border-radius: 16px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  color: var(--color-tinta);
+  transition: opacity var(--transition-fundido);
+}
+
+.home-card:active {
+  opacity: 0.85;
+}
+
+.home-card--terracota {
+  color: var(--color-terracota-app);
+}
+
+.home-card--salvia {
+  color: var(--color-salvia-app);
+}
+
+.home-card--mostaza {
+  color: var(--color-mostaza-app);
+}
+
+.home-card--coral {
+  color: var(--color-coral-app);
+}
+
+.home-card__label {
+  color: var(--color-tinta);
+  font-size: var(--font-size-cuerpo);
+  font-weight: 600;
+}
+
+.content-preview {
+  margin-top: 28px;
+  background: var(--color-terracota-suave);
+  border-radius: 16px;
+  padding: 16px 18px;
+}
+
+.content-preview__title {
+  font-size: var(--font-size-apoyo);
+  color: var(--color-tinta-suave);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0 0 6px;
+}
+
+.content-preview__name {
+  font-family: var(--font-titulo);
+  font-weight: var(--font-weight-titulo);
+  font-size: var(--font-size-titulo);
+  color: var(--color-tinta);
+  margin: 0;
+}
+
+.content-preview__meta {
+  font-size: var(--font-size-apoyo);
+  color: var(--color-tinta-suave);
+  margin-top: 4px;
+}

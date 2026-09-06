@@ -1,0 +1,54 @@
+/* Flujo de App §7.4 / TRD §8: "Imprimir" es la alternativa más simple al
+   PDF, mismo contenido base, con una hoja de estilos @media print
+   dedicada — mismo patrón .page-footer/paginación limpia del ebook. */
+
+.printable-export {
+  display: none;
+}
+
+@media print {
+  #root {
+    display: none;
+  }
+
+  .printable-export {
+    display: block;
+    padding: 24px;
+    color: #1a1a1a;
+    font-family: sans-serif;
+  }
+
+  .printable-export h1 {
+    font-size: 18pt;
+    margin: 0 0 4px;
+  }
+
+  .printable-export h2 {
+    font-size: 13pt;
+    margin: 16px 0 8px;
+    border-bottom: 1px solid #999;
+  }
+
+  .printable-export table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 9pt;
+  }
+
+  .printable-export th,
+  .printable-export td {
+    border: 1px solid #ccc;
+    padding: 4px 6px;
+    text-align: left;
+  }
+
+  .printable-export ol {
+    padding-left: 20px;
+  }
+
+  .printable-export .page-footer {
+    margin-top: 24px;
+    font-size: 8pt;
+    color: #666;
+  }
+}

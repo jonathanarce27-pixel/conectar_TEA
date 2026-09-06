@@ -1,0 +1,513 @@
+{
+  "exercises": [
+    {
+      "id": "E-01",
+      "name": "La Respiración de la Mariposa",
+      "group": "respiracion",
+      "durationSeconds": 150,
+      "difficulty": "facil",
+      "ageRange": "A partir de 3 años",
+      "description": "La respiración de la mariposa es una técnica suave y visual que ayuda a calmar la ansiedad antes de las comidas. El niño imita el movimiento de las alas de una mariposa mientras respira.",
+      "instructions": [
+        {
+          "order": 1,
+          "text": "Siéntate cómodamente con el niño, cara a cara o a su lado."
+        },
+        {
+          "order": 2,
+          "text": "Coloca las manos en el pecho, como si fueran las alas de una mariposa."
+        },
+        {
+          "order": 3,
+          "text": "Inhala profundamente por la nariz mientras abres lentamente los brazos (como si la mariposa abriera las alas)."
+        },
+        {
+          "order": 4,
+          "text": "Exhala suavemente por la boca mientras cierras los brazos (como si la mariposa cerrara las alas)."
+        },
+        {
+          "order": 5,
+          "text": "Repite 5-10 veces mientras observas cómo se mueven las \"alas\"."
+        }
+      ],
+      "whenToUse": "Antes de sentarse a la mesa. Durante momentos de ansiedad o nerviosismo. Como rutina diaria para crear un momento de calma."
+    },
+    {
+      "id": "E-02",
+      "name": "La Respiración del Globo",
+      "group": "respiracion",
+      "durationSeconds": 150,
+      "difficulty": "facil",
+      "ageRange": "A partir de 3 años",
+      "description": "Esta técnica utiliza la imagen de un globo que se infla y se desinfla para enseñar al niño a respirar profundamente.",
+      "instructions": [
+        {
+          "order": 1,
+          "text": "Siéntate cómodamente con el niño."
+        },
+        {
+          "order": 2,
+          "text": "Inhala profundamente por la nariz mientras imaginas que inflas un globo grande y colorido en la barriga."
+        },
+        {
+          "order": 3,
+          "text": "Exhala lentamente por la boca mientras imaginas que el globo se desinfla suavemente."
+        },
+        {
+          "order": 4,
+          "text": "Acompaña el movimiento con las manos: al inhalar, abres los brazos como si abrazaras un globo grande; al exhalar, juntas las manos."
+        },
+        {
+          "order": 5,
+          "text": "Repite 5-8 veces animando al niño a hacerlo contigo."
+        }
+      ],
+      "whenToUse": "Antes de la comida para relajar el cuerpo. Al despertar para empezar el día con calma. Al acostarse para facilitar el sueño."
+    },
+    {
+      "id": "E-03",
+      "name": "La Respiración de la Flor y la Vela",
+      "group": "respiracion",
+      "durationSeconds": 150,
+      "difficulty": "facil",
+      "ageRange": "A partir de 3 años",
+      "description": "Esta técnica combina dos imágenes: una flor (para inhalar) y una vela (para exhalar). Es una forma lúdica de aprender a controlar la respiración.",
+      "instructions": [
+        {
+          "order": 1,
+          "text": "Imagina que tienes una flor en la mano o cerca de la nariz."
+        },
+        {
+          "order": 2,
+          "text": "Inhala profundamente por la nariz como si estuvieras oliendo una flor."
+        },
+        {
+          "order": 3,
+          "text": "Imagina que tienes una vela encendida delante de ti."
+        },
+        {
+          "order": 4,
+          "text": "Exhala lentamente por la boca como si estuvieras apagando la vela (sin apagarla de golpe, sino con un soplido suave y prolongado)."
+        },
+        {
+          "order": 5,
+          "text": "Repite 5-8 veces alternando entre \"oler la flor\" y \"apagar la vela\"."
+        }
+      ],
+      "whenToUse": "Cualquier momento del día. Para enseñar al niño a controlar la intensidad de la exhalación (apagar la vela lentamente es más difícil que apagarla de golpe). En situaciones de frustración o enfado."
+    },
+    {
+      "id": "E-04",
+      "name": "La Respiración del Arcoíris",
+      "group": "respiracion",
+      "durationSeconds": 240,
+      "difficulty": "facil",
+      "ageRange": "A partir de 4 años",
+      "description": "Esta técnica guía al niño a través de un arcoíris visual, combinando respiración e imaginación. Es ideal para calmar después de una sobrecarga.",
+      "instructions": [
+        {
+          "order": 1,
+          "text": "Siéntate cómodamente con el niño."
+        },
+        {
+          "order": 2,
+          "text": "Cierra los ojos (si quiere) o manténlos abiertos."
+        },
+        {
+          "order": 3,
+          "text": "Inhala profundamente mientras imaginas el color rojo del arcoíris."
+        },
+        {
+          "order": 4,
+          "text": "Exhala lentamente mientras imaginas que dejas ir todas las preocupaciones."
+        },
+        {
+          "order": 5,
+          "text": "Repite con cada color del arcoíris: rojo, naranja, amarillo, verde, azul, añil y violeta."
+        },
+        {
+          "order": 6,
+          "text": "Al finalizar permanece en silencio unos segundos."
+        }
+      ],
+      "whenToUse": "Después de una crisis o sobrecarga sensorial. Antes de dormir. Como técnica de relajación en la consulta del terapeuta."
+    },
+    {
+      "id": "E-05",
+      "name": "El Abrazo del Oso",
+      "group": "presion",
+      "durationSeconds": 120,
+      "difficulty": "facil",
+      "ageRange": "A partir de 2 años",
+      "description": "La presión profunda es calmante para el sistema nervioso. Este ejercicio simula un abrazo de oso, que proporciona una sensación de seguridad y contención.",
+      "instructions": [
+        {
+          "order": 1,
+          "text": "Invita al niño a darse un abrazo a sí mismo (cruzar los brazos y abrazarse)."
+        },
+        {
+          "order": 2,
+          "text": "Aprieta suavemente los brazos contra el pecho."
+        },
+        {
+          "order": 3,
+          "text": "Mantén la presión durante 10-15 segundos mientras respiran juntos."
+        },
+        {
+          "order": 4,
+          "text": "Suelta la presión suavemente."
+        },
+        {
+          "order": 5,
+          "text": "Repite 3-5 veces."
+        },
+        {
+          "order": 6,
+          "text": "Variante con ayuda de un adulto: el adulto abraza al niño por detrás, presionando suavemente los brazos contra el pecho."
+        }
+      ],
+      "whenToUse": "Antes de la comida para crear un estado de calma. Cuando el niño parece inquieto o ansioso. Como transición entre actividades."
+    },
+    {
+      "id": "E-06",
+      "name": "El Sándwich de Mantas",
+      "group": "presion",
+      "durationSeconds": 450,
+      "difficulty": "facil",
+      "ageRange": "A partir de 2 años",
+      "description": "Este ejercicio utiliza el peso de mantas o cojines para proporcionar presión profunda, similar a la sensación de un abrazo.",
+      "instructions": [
+        {
+          "order": 1,
+          "text": "Coloca al niño en el suelo o en una superficie cómoda."
+        },
+        {
+          "order": 2,
+          "text": "Cubre al niño con varias mantas o cojines, como si fuera un sándwich."
+        },
+        {
+          "order": 3,
+          "text": "Aplica una presión suave y constante sobre las mantas (puedes presionar con las manos o con un rodillo de espuma)."
+        },
+        {
+          "order": 4,
+          "text": "Acompaña con una voz suave y pausada describiendo la sensación: \"Estás bien, estás a salvo\"."
+        },
+        {
+          "order": 5,
+          "text": "Deja que el niño decida cuándo quiere salir del \"sándwich\"."
+        }
+      ],
+      "whenToUse": "Después de una sobrecarga sensorial. Antes de dormir. Como una actividad de \"tiempo de calma\" en el colegio o en casa."
+    },
+    {
+      "id": "E-07",
+      "name": "Los Amasadores de Masa",
+      "group": "presion",
+      "durationSeconds": 450,
+      "difficulty": "facil",
+      "ageRange": "A partir de 3 años",
+      "description": "Este ejercicio utiliza la presión profunda en las manos y los brazos, similar a la sensación de amasar pan. Es especialmente útil para niños que rechazan el contacto físico directo.",
+      "instructions": [
+        {
+          "order": 1,
+          "text": "Prepara una masa de plastilina o arcilla (o usa una manta enrollada como sustituto)."
+        },
+        {
+          "order": 2,
+          "text": "Invita al niño a amasar la masa con las manos, presionando fuerte."
+        },
+        {
+          "order": 3,
+          "text": "Acompaña con instrucciones como: \"Aprieta fuerte, como si estuvieras haciendo pan\"."
+        },
+        {
+          "order": 4,
+          "text": "Si el niño lo permite, puedes presionar suavemente sus manos y brazos mientras \"amasan\"."
+        },
+        {
+          "order": 5,
+          "text": "Continúa durante 5-10 minutos, hasta que el niño muestre signos de calma."
+        }
+      ],
+      "whenToUse": "Antes de la comida, mientras se prepara la mesa. Durante momentos de ansiedad o irritabilidad. Como actividad de transición entre tareas."
+    },
+    {
+      "id": "E-08",
+      "name": "El Rodillo de Presión",
+      "group": "presion",
+      "durationSeconds": 450,
+      "difficulty": "facil",
+      "ageRange": "A partir de 3 años",
+      "description": "Este ejercicio utiliza un rodillo de espuma o un rodillo de masaje para proporcionar presión profunda y masaje en brazos y piernas.",
+      "instructions": [
+        {
+          "order": 1,
+          "text": "Coloca al niño en el suelo boca arriba o sentado."
+        },
+        {
+          "order": 2,
+          "text": "Pasa el rodillo suavemente por sus brazos y piernas, aplicando una presión firme pero no dolorosa."
+        },
+        {
+          "order": 3,
+          "text": "Pregunta al niño si quiere más o menos presión."
+        },
+        {
+          "order": 4,
+          "text": "Acompaña el movimiento con respiraciones profundas."
+        },
+        {
+          "order": 5,
+          "text": "Continúa durante 5-10 minutos, moviéndote lentamente por las extremidades."
+        }
+      ],
+      "whenToUse": "Antes de la comida para relajar el cuerpo. Después de un día de mucha actividad. Como actividad de \"tiempo de calma\"."
+    },
+    {
+      "id": "E-09",
+      "name": "La Rueda del Equilibrio",
+      "group": "motricidad",
+      "durationSeconds": 450,
+      "difficulty": "media",
+      "ageRange": "A partir de 4 años",
+      "description": "Este ejercicio combina el equilibrio y la presión profunda. Es ideal para regular el sistema nervioso antes de las comidas.",
+      "instructions": [
+        {
+          "order": 1,
+          "text": "Coloca una tabla de equilibrio, un cojín de estabilidad o una superficie blanda en el suelo."
+        },
+        {
+          "order": 2,
+          "text": "Invita al niño a subirse y mantener el equilibrio."
+        },
+        {
+          "order": 3,
+          "text": "Añade un desafío: balancearse suavemente, mover los brazos, o intentar tocar el suelo con un pie sin caerse."
+        },
+        {
+          "order": 4,
+          "text": "Acompaña con respiraciones profundas y frases calmantes: \"Estás estable, estás seguro\"."
+        },
+        {
+          "order": 5,
+          "text": "Continúa durante 5-10 minutos, o hasta que el niño muestre signos de calma."
+        }
+      ],
+      "whenToUse": "Antes de la comida para crear un estado de alerta calmada. Como actividad de transición entre el juego y la comida. Para niños que necesitan movimiento antes de poder sentarse."
+    },
+    {
+      "id": "E-10",
+      "name": "El Juego de la Pinza",
+      "group": "motricidad",
+      "durationSeconds": 450,
+      "difficulty": "facil",
+      "ageRange": "A partir de 3 años",
+      "description": "Este ejercicio trabaja la motricidad fina y la regulación a través de la presión. Es ideal para niños que necesitan estimulación táctil antes de comer.",
+      "instructions": [
+        {
+          "order": 1,
+          "text": "Prepara un cuenco con objetos pequeños (pompones, canicas, garbanzos) y una pinza de madera o pinzas de la ropa."
+        },
+        {
+          "order": 2,
+          "text": "Invita al niño a transferir los objetos de un cuenco a otro usando la pinza."
+        },
+        {
+          "order": 3,
+          "text": "Añade un desafío: cronometrar el tiempo, o hacerlo con los ojos cerrados."
+        },
+        {
+          "order": 4,
+          "text": "Acompaña con respiraciones profundas y frases calmantes: \"Estás concentrado, estás tranquilo\"."
+        },
+        {
+          "order": 5,
+          "text": "Continúa durante 5-10 minutos, o hasta que el niño muestre signos de calma."
+        }
+      ],
+      "whenToUse": "Antes de la comida, mientras se prepara la mesa. Como una actividad de \"espera\" cuando la comida se está preparando. Durante momentos de ansiedad o irritabilidad."
+    },
+    {
+      "id": "E-11",
+      "name": "El Paseo del Cangrejo",
+      "group": "motricidad",
+      "durationSeconds": 450,
+      "difficulty": "media",
+      "ageRange": "A partir de 4 años",
+      "description": "Este ejercicio combina la presión profunda (soportar el peso del cuerpo en las manos y los pies) con el movimiento y la diversión. Es ideal para niños que necesitan descargar energía antes de la comida.",
+      "instructions": [
+        {
+          "order": 1,
+          "text": "Coloca al niño en posición de cangrejo: sentado en el suelo, con las manos y los pies apoyados en el suelo, y el trasero levantado."
+        },
+        {
+          "order": 2,
+          "text": "Invita al niño a caminar como un cangrejo, moviendo manos y pies en la misma dirección."
+        },
+        {
+          "order": 3,
+          "text": "Añade un desafío: colocar objetos pequeños en su barriga y transportarlos sin que se caigan."
+        },
+        {
+          "order": 4,
+          "text": "Acompaña con respiraciones profundas y frases divertidas: \"Eres el cangrejo más rápido del mar\"."
+        },
+        {
+          "order": 5,
+          "text": "Continúa durante 5-10 minutos, o hasta que el niño muestre signos de calma."
+        }
+      ],
+      "whenToUse": "Antes de la comida, para descargar energía. Después de un momento de tensión o frustración. Como una actividad de regulación en el recreo o en el comedor escolar."
+    },
+    {
+      "id": "E-12",
+      "name": "La Carrera de la Respiración",
+      "group": "motricidad",
+      "durationSeconds": 450,
+      "difficulty": "facil",
+      "ageRange": "A partir de 4 años",
+      "description": "Este ejercicio combina la respiración con el movimiento, ayudando al niño a conectar su cuerpo y su respiración antes de comer.",
+      "instructions": [
+        {
+          "order": 1,
+          "text": "Prepara un espacio abierto y seguro."
+        },
+        {
+          "order": 2,
+          "text": "Invita al niño a caminar en círculo o de un lado a otro de la habitación."
+        },
+        {
+          "order": 3,
+          "text": "Mientras camina, sincroniza el movimiento con la respiración: \"Inhala mientras levantas los brazos, exhala mientras los bajas\"."
+        },
+        {
+          "order": 4,
+          "text": "Añade un desafío: caminar en puntillas, caminar como un robot, o caminar muy despacio."
+        },
+        {
+          "order": 5,
+          "text": "Continúa durante 5-10 minutos, o hasta que el niño muestre signos de calma."
+        }
+      ],
+      "whenToUse": "Antes de la comida, para despertar el cuerpo y la mente. En momentos de letargo o apatía. Como rutina diaria para crear un momento de conexión."
+    }
+  ],
+  "routines": [
+    {
+      "id": "RT-01",
+      "name": "ritual-comida",
+      "steps": [
+        {
+          "refType": "exercise",
+          "refId": "E-05",
+          "label": "El Abrazo del Oso (Ficha 5): 2 minutos de abrazo y presión profunda."
+        },
+        {
+          "refType": "exercise",
+          "refId": "E-01",
+          "label": "La Respiración de la Mariposa (Ficha 1): 3 minutos de respiración suave."
+        },
+        {
+          "refType": "exercise",
+          "refId": "E-06",
+          "label": "El Sándwich de Mantas (Ficha 6): 5 minutos de presión profunda."
+        },
+        {
+          "refType": "action",
+          "label": "Preparación de la mesa : el niño ayuda a poner la mesa, lo que le da control y predictibilidad."
+        },
+        {
+          "refType": "action",
+          "label": "Sentarse a la mesa : con el alimento seguro ya colocado."
+        }
+      ]
+    },
+    {
+      "id": "RT-02",
+      "name": "rincon-calma",
+      "steps": [
+        {
+          "refType": "action",
+          "label": "Pausa : detén la actividad (comer, jugar, etc.)."
+        },
+        {
+          "refType": "exercise",
+          "refId": "E-02",
+          "label": "El Globo de la Calma (Ficha 2): 3 minutos de respiración."
+        },
+        {
+          "refType": "action",
+          "label": "Presión profunda : un abrazo o un masaje suave."
+        },
+        {
+          "refType": "action",
+          "label": "Retirada a un espacio tranquilo : un rincón con cojines y mantas."
+        },
+        {
+          "refType": "action",
+          "label": "Regreso : cuando el niño se sienta listo, puede volver a la mesa."
+        }
+      ]
+    },
+    {
+      "id": "RT-03",
+      "name": "transicion-alimentaria",
+      "steps": [
+        {
+          "refType": "action",
+          "label": "Aviso visual : \"En 10 minutos vamos a comer\" (usar un temporizador visual)."
+        },
+        {
+          "refType": "exercise",
+          "refId": "E-11",
+          "label": "El Paseo del Cangrejo (Ficha 11): 5 minutos de movimiento."
+        },
+        {
+          "refType": "exercise",
+          "refId": "E-03",
+          "label": "La Respiración de la Flor y la Vela (Ficha 3): 3 minutos de respiración."
+        },
+        {
+          "refType": "exercise",
+          "refId": "E-05",
+          "label": "El Abrazo del Oso (Ficha 5): 2 minutos de presión."
+        },
+        {
+          "refType": "action",
+          "label": "Sentarse a la mesa : con el alimento seguro ya presente."
+        }
+      ]
+    }
+  ],
+  "implementationTips": [
+    {
+      "title": "Sé constante",
+      "text": "La regulación se construye con la repetición. Realiza los ejercicios en los mismos momentos cada día."
+    },
+    {
+      "title": "Acompaña con voz suave",
+      "text": "Tu tono de voz es tan importante como el ejercicio. Habla despacio y en voz baja."
+    },
+    {
+      "title": "Respeta el rechazo",
+      "text": "Si el niño no quiere participar, no insistas. Puedes hacer tú el ejercicio y él te observará (el modelado es efectivo)."
+    },
+    {
+      "title": "Adapta al niño",
+      "text": "Si un ejercicio no funciona, prueba con otro. Cada niño tiene sus preferencias sensoriales."
+    },
+    {
+      "title": "Observa las señales",
+      "text": "Presta atención a las señales de sobrecarga (tapar los oídos, agitarse, bloquearse) y actúa antes de que la crisis llegue."
+    },
+    {
+      "title": "Celebra los pequeños logros",
+      "text": "Cada vez que el niño participe en un ejercicio, aunque sea solo un minuto, valora su esfuerzo."
+    },
+    {
+      "title": "Incluye al resto de la familia",
+      "text": "Que toda la familia participe en los ejercicios (ej. \"Vamos a hacer la respiración del globo todos juntos\") ayuda a normalizar la práctica."
+    }
+  ]
+}

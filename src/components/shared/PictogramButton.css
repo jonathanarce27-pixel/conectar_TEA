@@ -1,0 +1,45 @@
+.pictogram-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--color-crema-honda-app);
+  border: 1px solid var(--color-linea-app);
+  border-radius: 16px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity var(--transition-fundido);
+}
+
+.pictogram-button:active {
+  opacity: 0.85;
+}
+
+.pictogram-button:focus-visible {
+  outline: 3px solid var(--color-terracota-app);
+  outline-offset: 2px;
+}
+
+.pictogram-button--terracota {
+  color: var(--color-terracota-app);
+}
+
+.pictogram-button--salvia {
+  color: var(--color-salvia-app);
+}
+
+.pictogram-button--mostaza {
+  color: var(--color-mostaza-app);
+}
+
+.pictogram-button--coral {
+  color: var(--color-coral-app);
+}
+
+.pictogram-button__label {
+  color: var(--color-tinta);
+  font-size: var(--font-size-cuerpo);
+  font-weight: 600;
+  text-align: center;
+}

@@ -1,0 +1,248 @@
+[
+  {
+    "id": "necesidades",
+    "label": "Necesidades básicas",
+    "pictograms": [
+      {
+        "id": "p-hambre",
+        "categoryId": "necesidades",
+        "label": "Tengo hambre",
+        "icon": "i-food",
+        "audioText": "Tengo hambre",
+        "isCustom": false,
+        "isEmergency": true
+      },
+      {
+        "id": "p-sed",
+        "categoryId": "necesidades",
+        "label": "Tengo sed",
+        "icon": "i-glass",
+        "audioText": "Tengo sed",
+        "isCustom": false,
+        "isEmergency": true
+      },
+      {
+        "id": "p-bano",
+        "categoryId": "necesidades",
+        "label": "Necesito ir al baño",
+        "icon": "i-toilet",
+        "audioText": "Necesito ir al baño",
+        "isCustom": false,
+        "isEmergency": true
+      },
+      {
+        "id": "p-basta",
+        "categoryId": "necesidades",
+        "label": "Para / Basta",
+        "icon": "i-stop",
+        "audioText": "Para",
+        "isCustom": false,
+        "isEmergency": false
+      }
+    ]
+  },
+  {
+    "id": "preferencias",
+    "label": "Preferencias",
+    "pictograms": [
+      {
+        "id": "p-gusta",
+        "categoryId": "preferencias",
+        "label": "Me gusta",
+        "icon": "i-thumb-up",
+        "audioText": "Me gusta",
+        "isCustom": false,
+        "isEmergency": false
+      },
+      {
+        "id": "p-no-gusta",
+        "categoryId": "preferencias",
+        "label": "No me gusta",
+        "icon": "i-thumb-down",
+        "audioText": "No me gusta",
+        "isCustom": false,
+        "isEmergency": true
+      },
+      {
+        "id": "p-mas",
+        "categoryId": "preferencias",
+        "label": "Quiero más",
+        "icon": "i-plus",
+        "audioText": "Quiero más",
+        "isCustom": false,
+        "isEmergency": false
+      },
+      {
+        "id": "p-menos",
+        "categoryId": "preferencias",
+        "label": "Quiero menos",
+        "icon": "i-minus",
+        "audioText": "Quiero menos",
+        "isCustom": false,
+        "isEmergency": false
+      }
+    ]
+  },
+  {
+    "id": "sensaciones",
+    "label": "Sensaciones físicas",
+    "pictograms": [
+      {
+        "id": "p-caliente",
+        "categoryId": "sensaciones",
+        "label": "Está muy caliente",
+        "icon": "i-thermo-hot",
+        "audioText": "Está muy caliente",
+        "isCustom": false,
+        "isEmergency": true
+      },
+      {
+        "id": "p-frio",
+        "categoryId": "sensaciones",
+        "label": "Está muy frío",
+        "icon": "i-thermo-cold",
+        "audioText": "Está muy frío",
+        "isCustom": false,
+        "isEmergency": true
+      },
+      {
+        "id": "p-dolor",
+        "categoryId": "sensaciones",
+        "label": "Me duele la barriga",
+        "icon": "i-stomach",
+        "audioText": "Me duele la barriga",
+        "isCustom": false,
+        "isEmergency": true
+      },
+      {
+        "id": "p-textura",
+        "categoryId": "sensaciones",
+        "label": "No me gusta la textura",
+        "icon": "i-texture",
+        "audioText": "No me gusta la textura",
+        "isCustom": false,
+        "isEmergency": false
+      }
+    ]
+  },
+  {
+    "id": "alimentos",
+    "label": "Alimentos",
+    "pictograms": [
+      {
+        "id": "p-pan",
+        "categoryId": "alimentos",
+        "label": "Pan",
+        "icon": "i-bread",
+        "audioText": "Pan",
+        "isCustom": false,
+        "isEmergency": false
+      },
+      {
+        "id": "p-leche",
+        "categoryId": "alimentos",
+        "label": "Leche",
+        "icon": "i-milk",
+        "audioText": "Leche",
+        "isCustom": false,
+        "isEmergency": false
+      },
+      {
+        "id": "p-pollo",
+        "categoryId": "alimentos",
+        "label": "Pollo",
+        "icon": "i-chicken",
+        "audioText": "Pollo",
+        "isCustom": false,
+        "isEmergency": false
+      },
+      {
+        "id": "p-arroz",
+        "categoryId": "alimentos",
+        "label": "Arroz",
+        "icon": "i-rice",
+        "audioText": "Arroz",
+        "isCustom": false,
+        "isEmergency": false
+      },
+      {
+        "id": "p-patata",
+        "categoryId": "alimentos",
+        "label": "Patata",
+        "icon": "i-potato",
+        "audioText": "Patata",
+        "isCustom": false,
+        "isEmergency": false
+      },
+      {
+        "id": "p-platano",
+        "categoryId": "alimentos",
+        "label": "Plátano",
+        "icon": "i-banana",
+        "audioText": "Plátano",
+        "isCustom": false,
+        "isEmergency": false
+      },
+      {
+        "id": "p-manzana",
+        "categoryId": "alimentos",
+        "label": "Manzana",
+        "icon": "i-apple",
+        "audioText": "Manzana",
+        "isCustom": false,
+        "isEmergency": false
+      },
+      {
+        "id": "p-galleta",
+        "categoryId": "alimentos",
+        "label": "Galleta",
+        "icon": "i-cookie",
+        "audioText": "Galleta",
+        "isCustom": false,
+        "isEmergency": false
+      }
+    ]
+  },
+  {
+    "id": "ayuda",
+    "label": "Ayuda",
+    "pictograms": [
+      {
+        "id": "p-ayuda",
+        "categoryId": "ayuda",
+        "label": "Necesito ayuda",
+        "icon": "i-help",
+        "audioText": "Necesito ayuda",
+        "isCustom": false,
+        "isEmergency": false
+      },
+      {
+        "id": "p-tiempo",
+        "categoryId": "ayuda",
+        "label": "Necesito más tiempo",
+        "icon": "i-clock",
+        "audioText": "Necesito más tiempo",
+        "isCustom": false,
+        "isEmergency": false
+      },
+      {
+        "id": "p-mamapapa",
+        "categoryId": "ayuda",
+        "label": "Quiero a mamá/papá",
+        "icon": "i-heart",
+        "audioText": "Quiero a mamá o papá",
+        "isCustom": false,
+        "isEmergency": false
+      },
+      {
+        "id": "p-silencio",
+        "categoryId": "ayuda",
+        "label": "Silencio, por favor",
+        "icon": "i-mute",
+        "audioText": "Silencio por favor",
+        "isCustom": false,
+        "isEmergency": false
+      }
+    ]
+  }
+]

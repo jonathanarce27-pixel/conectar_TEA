@@ -1,0 +1,252 @@
+[
+  {
+    "id": "J-01",
+    "name": "Jugo de Manzana y Zanahoria",
+    "ingredients": [
+      { "name": "manzanas", "quantity": "2", "unit": "unidad" },
+      { "name": "zanahorias", "quantity": "2", "unit": "unidad" },
+      { "name": "agua", "quantity": "200", "unit": "ml" }
+    ],
+    "preparation": [
+      { "order": 1, "text": "Lava y pela las zanahorias." },
+      { "order": 2, "text": "Lava las manzanas (sin pelar, si el niño tolera)." },
+      { "order": 3, "text": "Corta todo en trozos y pon en la licuadora con el agua." },
+      { "order": 4, "text": "Licúa hasta obtener un jugo homogéneo." },
+      { "order": 5, "text": "Cuela si es necesario (para eliminar pulpa)." }
+    ],
+    "recommendations": [
+      "Textura: líquido suave.",
+      "Alimento puente: zumo de manzana.",
+      "El color anaranjado es atractivo y la textura es suave. Si el niño rechaza la pulpa, cuela bien."
+    ]
+  },
+  {
+    "id": "J-02",
+    "name": "Batido de Plátano y Leche",
+    "ingredients": [
+      { "name": "plátano", "quantity": "1", "unit": "unidad" },
+      { "name": "leche (de vaca o vegetal)", "quantity": "200", "unit": "ml" },
+      { "name": "esencia de vainilla (opcional)", "quantity": "unas", "unit": "gotas" }
+    ],
+    "preparation": [
+      { "order": 1, "text": "Pela el plátano y córtalo en rodajas." },
+      { "order": 2, "text": "Pon todos los ingredientes en la licuadora." },
+      { "order": 3, "text": "Licúa hasta obtener una mezcla homogénea y cremosa." },
+      { "order": 4, "text": "Sirve inmediatamente." }
+    ],
+    "recommendations": [
+      "Textura: cremoso.",
+      "Alimento puente: leche.",
+      "El plátano maduro aporta dulzura natural sin necesidad de azúcar. La textura cremosa es muy aceptada."
+    ]
+  },
+  {
+    "id": "J-03",
+    "name": "Jugo de Fresa y Naranja",
+    "ingredients": [
+      { "name": "fresas", "quantity": "200", "unit": "g" },
+      { "name": "naranjas", "quantity": "2", "unit": "unidad" },
+      { "name": "agua", "quantity": "100", "unit": "ml" }
+    ],
+    "preparation": [
+      { "order": 1, "text": "Lava las fresas y elimina el tallo." },
+      { "order": 2, "text": "Exprime las naranjas." },
+      { "order": 3, "text": "Pon todos los ingredientes en la licuadora." },
+      { "order": 4, "text": "Licúa hasta obtener un jugo homogéneo." },
+      { "order": 5, "text": "Cuela si es necesario." }
+    ],
+    "recommendations": [
+      "Textura: líquido.",
+      "Alimento puente: zumo de naranja.",
+      "El color rojo es atractivo. Si el niño encuentra las fresas ácidas, añade medio plátano para suavizar el sabor."
+    ]
+  },
+  {
+    "id": "J-04",
+    "name": "Batido de Mango y Yogur",
+    "ingredients": [
+      { "name": "mango (pelado y sin hueso)", "quantity": "1", "unit": "unidad" },
+      { "name": "yogur natural", "quantity": "200", "unit": "ml" },
+      { "name": "leche (opcional, para ajustar consistencia)", "quantity": "50", "unit": "ml" }
+    ],
+    "preparation": [
+      { "order": 1, "text": "Corta el mango en trozos." },
+      { "order": 2, "text": "Pon todos los ingredientes en la licuadora." },
+      { "order": 3, "text": "Licúa hasta obtener una mezcla homogénea." },
+      { "order": 4, "text": "Sirve frío." }
+    ],
+    "recommendations": [
+      "Textura: cremoso.",
+      "Alimento puente: yogur.",
+      "El mango tiene una textura suave y un sabor dulce que suele ser bien aceptado. La cremosidad del yogur es familiar."
+    ]
+  },
+  {
+    "id": "J-05",
+    "name": "Jugo de Piña y Manzana",
+    "ingredients": [
+      { "name": "piña (fresca o en su jugo)", "quantity": "200", "unit": "g" },
+      { "name": "manzanas", "quantity": "2", "unit": "unidad" },
+      { "name": "agua", "quantity": "150", "unit": "ml" }
+    ],
+    "preparation": [
+      { "order": 1, "text": "Pela y corta la piña." },
+      { "order": 2, "text": "Lava las manzanas (sin pelar, si el niño tolera)." },
+      { "order": 3, "text": "Pon todo en la licuadora con el agua." },
+      { "order": 4, "text": "Licúa hasta obtener un jugo homogéneo." },
+      { "order": 5, "text": "Cuela si es necesario." }
+    ],
+    "recommendations": [
+      "Textura: líquido.",
+      "Alimento puente: zumo de manzana.",
+      "La piña tiene un sabor dulce y suave. Si el niño rechaza la acidez, prueba con piña en su jugo (en lata)."
+    ]
+  },
+  {
+    "id": "J-06",
+    "name": "Batido de Frutos Rojos",
+    "ingredients": [
+      { "name": "frutos rojos (fresas, arándanos, frambuesas)", "quantity": "150", "unit": "g" },
+      { "name": "plátano", "quantity": "1", "unit": "unidad" },
+      { "name": "leche o yogur", "quantity": "200", "unit": "ml" }
+    ],
+    "preparation": [
+      { "order": 1, "text": "Lava los frutos rojos." },
+      { "order": 2, "text": "Pela el plátano y córtalo en rodajas." },
+      { "order": 3, "text": "Pon todos los ingredientes en la licuadora." },
+      { "order": 4, "text": "Licúa hasta obtener una mezcla homogénea." },
+      { "order": 5, "text": "Sirve frío." }
+    ],
+    "recommendations": [
+      "Textura: cremoso.",
+      "Alimento puente: yogur.",
+      "Los frutos rojos tienen un color intenso. Si el niño rechaza las semillas, cuela el batido. El plátano añade dulzura."
+    ]
+  },
+  {
+    "id": "J-07",
+    "name": "Jugo de Zanahoria y Naranja",
+    "ingredients": [
+      { "name": "zanahorias", "quantity": "2", "unit": "unidad" },
+      { "name": "naranjas", "quantity": "2", "unit": "unidad" },
+      { "name": "agua", "quantity": "100", "unit": "ml" }
+    ],
+    "preparation": [
+      { "order": 1, "text": "Pela las zanahorias y córtalas en trozos." },
+      { "order": 2, "text": "Exprime las naranjas." },
+      { "order": 3, "text": "Pon todos los ingredientes en la licuadora." },
+      { "order": 4, "text": "Licúa hasta obtener un jugo homogéneo." },
+      { "order": 5, "text": "Cuela para eliminar la pulpa." }
+    ],
+    "recommendations": [
+      "Textura: líquido.",
+      "Alimento puente: zumo de naranja.",
+      "La zanahoria dulce combina bien con la naranja. La textura líquida es fácil de aceptar."
+    ]
+  },
+  {
+    "id": "J-08",
+    "name": "Batido de Avena y Plátano",
+    "ingredients": [
+      { "name": "plátano", "quantity": "1", "unit": "unidad" },
+      { "name": "copos de avena", "quantity": "3", "unit": "cucharadas" },
+      { "name": "leche", "quantity": "200", "unit": "ml" },
+      { "name": "canela (opcional)", "quantity": "", "unit": "" }
+    ],
+    "preparation": [
+      { "order": 1, "text": "Pela el plátano y córtalo en rodajas." },
+      { "order": 2, "text": "Pon todos los ingredientes en la licuadora." },
+      { "order": 3, "text": "Licúa hasta obtener una mezcla homogénea." },
+      { "order": 4, "text": "Sirve inmediatamente (la avena se hincha con el tiempo)." }
+    ],
+    "recommendations": [
+      "Textura: cremoso.",
+      "Alimento puente: leche.",
+      "La avena aporta fibra y cremosidad. Si el niño rechaza texturas granuladas, tritura bien y sirve rápido."
+    ]
+  },
+  {
+    "id": "J-09",
+    "name": "Jugo de Pera y Uva",
+    "ingredients": [
+      { "name": "peras", "quantity": "2", "unit": "unidad" },
+      { "name": "uvas (sin semillas)", "quantity": "200", "unit": "g" },
+      { "name": "agua", "quantity": "100", "unit": "ml" }
+    ],
+    "preparation": [
+      { "order": 1, "text": "Lava las peras y córtalas en trozos." },
+      { "order": 2, "text": "Lava las uvas." },
+      { "order": 3, "text": "Pon todos los ingredientes en la licuadora." },
+      { "order": 4, "text": "Licúa hasta obtener un jugo homogéneo." },
+      { "order": 5, "text": "Cuela si es necesario." }
+    ],
+    "recommendations": [
+      "Textura: líquido.",
+      "Alimento puente: zumo de uva.",
+      "La pera tiene un sabor suave y dulce. La uva aporta color y un toque de dulzura. Textura líquida y ligera."
+    ]
+  },
+  {
+    "id": "J-10",
+    "name": "Batido de Papaya y Leche",
+    "ingredients": [
+      { "name": "papaya (sin semillas)", "quantity": "200", "unit": "g" },
+      { "name": "leche (de vaca o vegetal)", "quantity": "200", "unit": "ml" },
+      { "name": "canela (opcional)", "quantity": "Una", "unit": "pizca" }
+    ],
+    "preparation": [
+      { "order": 1, "text": "Pela la papaya y córtala en trozos." },
+      { "order": 2, "text": "Pon todos los ingredientes en la licuadora." },
+      { "order": 3, "text": "Licúa hasta obtener una mezcla homogénea." },
+      { "order": 4, "text": "Sirve frío." }
+    ],
+    "recommendations": [
+      "Textura: cremoso.",
+      "Alimento puente: leche.",
+      "La papaya tiene una textura suave y un sabor dulce. La leche aporta familiaridad. La canela es opcional."
+    ]
+  },
+  {
+    "id": "J-11",
+    "name": "Jugo de Remolacha y Manzana",
+    "ingredients": [
+      { "name": "remolacha cocida (o cruda, si la licuadora es potente)", "quantity": "1", "unit": "unidad" },
+      { "name": "manzanas", "quantity": "2", "unit": "unidad" },
+      { "name": "agua", "quantity": "150", "unit": "ml" },
+      { "name": "limón (opcional)", "quantity": "Un", "unit": "chorrito" }
+    ],
+    "preparation": [
+      { "order": 1, "text": "Cocina la remolacha (si no está cocida) y pélala." },
+      { "order": 2, "text": "Lava las manzanas y córtalas en trozos." },
+      { "order": 3, "text": "Pon todos los ingredientes en la licuadora." },
+      { "order": 4, "text": "Licúa hasta obtener un jugo homogéneo." },
+      { "order": 5, "text": "Cuela para eliminar la pulpa." }
+    ],
+    "recommendations": [
+      "Textura: líquido.",
+      "Alimento puente: zumo de manzana.",
+      "La remolacha tiene un color rojo intenso y un sabor dulce. Si el niño rechaza el color, prueba con una cantidad menor la primera vez."
+    ]
+  },
+  {
+    "id": "J-12",
+    "name": "Batido de Coco y Frutas Tropicales",
+    "ingredients": [
+      { "name": "plátano", "quantity": "1", "unit": "unidad" },
+      { "name": "mangos", "quantity": "2", "unit": "unidad" },
+      { "name": "leche de coco", "quantity": "200", "unit": "ml" },
+      { "name": "canela (opcional)", "quantity": "Una", "unit": "pizca" }
+    ],
+    "preparation": [
+      { "order": 1, "text": "Pela el plátano y el mango." },
+      { "order": 2, "text": "Pon todos los ingredientes en la licuadora." },
+      { "order": 3, "text": "Licúa hasta obtener una mezcla homogénea." },
+      { "order": 4, "text": "Sirve frío, con hielo si se desea." }
+    ],
+    "recommendations": [
+      "Textura: líquido.",
+      "Alimento puente: zumo de coco.",
+      "El coco tiene un aroma suave y exótico. La textura cremosa es muy aceptada. El hielo aporta una sensación de frescor."
+    ]
+  }
+]

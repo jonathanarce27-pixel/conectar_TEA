@@ -1,0 +1,46 @@
+.ai-button {
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  min-height: 56px;
+  border-radius: 50%;
+  border: none;
+  background: var(--color-salvia-app);
+  color: var(--color-crema-app);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(59, 46, 36, 0.2);
+  z-index: 40;
+  cursor: pointer;
+  transition: opacity var(--transition-fundido);
+}
+
+.ai-button:active {
+  opacity: 0.85;
+}
+
+.ai-button:focus-visible {
+  outline: 3px solid var(--color-tinta);
+  outline-offset: 2px;
+}
+
+.ai-button--offline {
+  width: auto;
+  height: auto;
+  min-width: 56px;
+  border-radius: 28px;
+  padding: 8px 14px;
+  gap: 6px;
+  background: var(--color-tinta-suave);
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.ai-button__label {
+  font-size: var(--font-size-apoyo);
+  white-space: nowrap;
+}

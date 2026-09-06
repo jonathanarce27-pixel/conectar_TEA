@@ -1,0 +1,3366 @@
+[
+  {
+    "id": "R-01",
+    "name": "Puré de Patata y Zanahoria Arcoíris",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 25,
+    "image": "/content-assets/recetas/r-01.jpg",
+    "ingredients": [
+      {
+        "name": "patatas medianas",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "zanahoria grande",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "aceite de oliva virgen extra",
+        "quantity": "1",
+        "unit": "cucharada"
+      },
+      {
+        "name": "sal (opcional)",
+        "quantity": "Una",
+        "unit": "pizca"
+      },
+      {
+        "name": "Caldo de verduras o agua",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pela las patatas y la zanahoria. Lávalas bien."
+      },
+      {
+        "order": 2,
+        "text": "Córtalas en trozos pequeños (¡pide ayuda a tu hijo para echarlos en la olla!)."
+      },
+      {
+        "order": 3,
+        "text": "Ponlos en una olla con agua o caldo caliente. Cocina 15-20 min hasta que estén blandos."
+      },
+      {
+        "order": 4,
+        "text": "Escurre el agua y aplasta con un tenedor o pasapurés."
+      },
+      {
+        "order": 5,
+        "text": "Añade el aceite y mezcla bien. Sirve tibio."
+      }
+    ],
+    "bridgeFood": "Puré de patata tradicional",
+    "bridgeFoodTips": [
+      "Si tu hijo ya come puré de patata, prueba esta receta añadiendo solo un trocito pequeño de zanahoria bien cocida.",
+      "Si come zanahoria cruda en palitos, prueba la versión crocante horneada.",
+      "Si come crema de verduras, usa esta receta como paso intermedio entre textura líquida y sólida."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Aplasta hasta que quede completamente liso. Puedes añadir un poco de leche (de vaca o vegetal) para hacerlo más cremoso. Ideal para primeros contactos. Textura familiar y predecible."
+      },
+      "trocitos": {
+        "description": "Aplasta dejando algunos grumos pequeños. Cuando el niño tolera texturas con pequeñas variaciones."
+      },
+      "crocante": {
+        "description": "Corta la zanahoria en rodajas finas y ásalas al horno con un poco de aceite hasta que estén crujientes (¡chips de zanahoria!). Para niños que disfrutan con texturas crujientes."
+      }
+    },
+    "sensoryTip": "Deja que el niño toque el puré con los dedos (fuera de la mesa) antes de ofrecérselo en el plato. Pueden hacer \"dibujos\" con él sobre un papel."
+  },
+  {
+    "id": "R-02",
+    "name": "Nuggets de Pollo Caseros (Versión 3 Texturas)",
+    "category": "Recetas Amigables",
+    "difficulty": "media",
+    "timeMinutes": 35,
+    "image": "/content-assets/recetas/r-02.jpg",
+    "ingredients": [
+      {
+        "name": "pechuga de pollo (o 2 filetes de pollo)",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "huevo",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "pan rallado (o copos de maíz triturados para una versión más crujiente)",
+        "quantity": "3",
+        "unit": "cucharadas"
+      },
+      {
+        "name": "queso parmesano rallado (opcional, para dar sabor)",
+        "quantity": "1",
+        "unit": "cucharada"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Corta la pechuga de pollo en tiras o trozos pequeños."
+      },
+      {
+        "order": 2,
+        "text": "Bate el huevo en un bol pequeño."
+      },
+      {
+        "order": 3,
+        "text": "Mezcla el pan rallado y el queso en otro bol."
+      },
+      {
+        "order": 4,
+        "text": "Pasa cada trozo de pollo por huevo y luego por pan rallado."
+      },
+      {
+        "order": 5,
+        "text": "Cocina en una sartén con un poco de aceite, o en el horno (180°C, 15- 20 min) hasta que estén dorados."
+      }
+    ],
+    "bridgeFood": "Nuggets de pollo congelados",
+    "bridgeFoodTips": [
+      "Si tu hijo come nuggets congelados de marca X, prueba hacer esta receta con la misma forma, cambiando solo la marca de pan rallado primero.",
+      "Si come pollo rebozado, prueba la versión trocitos (sin rebozar) como paso hacia texturas más variadas.",
+      "Si come paté o crema de pollo, la versión puré es un paso intermedio hacia el pollo más sólido."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Cocina el pollo hervido y tritúralo con un poco de caldo y patata hasta obtener una textura de puré (tipo paté de pollo). Si tu hijo solo tolera texturas suaves."
+      },
+      "trocitos": {
+        "description": "Cocina el pollo en tiras pequeñas sin rebozar, saltado con un poco de aceite. Textura más firme pero sin rebozado. Cuando el niño ya acepta texturas más sólidas."
+      },
+      "crocante": {
+        "description": "La versión clásica rebozada y horneada o frita. El rebozado añade el sonido y la textura crujiente que a muchos niños les encanta. Para niños que disfrutan con lo crujiente."
+      }
+    },
+    "sensoryTip": "Invita al niño a participar en el rebozado: pasar el pollo por el huevo y luego por el pan rallado es una actividad sensorial divertida que reduce el miedo al alimento."
+  },
+  {
+    "id": "R-03",
+    "name": "Tostadas Divertidas de Frutas",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 10,
+    "image": "/content-assets/recetas/r-03.jpg",
+    "ingredients": [
+      {
+        "name": "pan (del que el niño acepte)",
+        "quantity": "1",
+        "unit": "rebanada"
+      },
+      {
+        "name": "queso crema o yogur espeso",
+        "quantity": "1",
+        "unit": "cucharada"
+      },
+      {
+        "name": "Fruta fresca (fresa, plátano, kiwi, o la que tu hijo quiera explorar)",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tuesta el pan ligeramente (hasta que esté crujiente pero no duro)."
+      },
+      {
+        "order": 2,
+        "text": "Unta el queso crema o yogur sobre la tostada."
+      },
+      {
+        "order": 3,
+        "text": "Corta las frutas en rodajas finas."
+      },
+      {
+        "order": 4,
+        "text": "Coloca las rodajas de fruta sobre la tostada formando caritas o dibujos (¡que el niño participe!)."
+      },
+      {
+        "order": 5,
+        "text": "¡A comer! (o a oler, tocar y jugar)."
+      }
+    ],
+    "bridgeFood": "Pan tostado (sin nada)",
+    "bridgeFoodTips": [
+      "Si el niño ya come pan tostado, esta receta añade un primer contacto con un \"unto\" (queso o yogur).",
+      "Si ya come yogur, la fruta entera es el siguiente paso.",
+      "Si ya come purés de fruta, pasar a la fruta en trocitos pequeños sobre la tostada es una transición suave."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Machaca la fruta con un tenedor y úntala sobre la tostada como si fuera mermelada. Para niños que rechazan trozos pero toleran untables."
+      },
+      "trocitos": {
+        "description": "Corta la fruta en dados muy pequeños y espárcelos sobre la base untada. Como paso intermedio entre el puré y la fruta entera."
+      },
+      "crocante": {
+        "description": "Usa fruta deshidratada (chips de manzana, plátano deshidratado) sobre la tostada. Para niños que aman las texturas crujientes."
+      }
+    },
+    "sensoryTip": "Presenta la fruta en un plato aparte. Primero, deja que el niño la toque, la huela y juegue con ella. Luego, coloca un trozo pequeño sobre la tostada. La presión es tu enemiga, la curiosidad tu aliada."
+  },
+  {
+    "id": "R-04",
+    "name": "Crema de Calabaza y Zanahoria (Suave y Dulce)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 30,
+    "image": "/content-assets/recetas/r-04.jpg",
+    "ingredients": [
+      {
+        "name": "calabaza (el tipo que acepte tu hijo)",
+        "quantity": "400",
+        "unit": "g"
+      },
+      {
+        "name": "zanahorias",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "patata pequeña (opcional, para dar cuerpo)",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "caldo de verduras (o agua)",
+        "quantity": "500",
+        "unit": "ml"
+      },
+      {
+        "name": "aceite de oliva",
+        "quantity": "Un",
+        "unit": "chorrito"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pela y corta la calabaza, las zanahorias y la patata en trozos medianos."
+      },
+      {
+        "order": 2,
+        "text": "Ponlas en una olla con el caldo o agua."
+      },
+      {
+        "order": 3,
+        "text": "Cocina a fuego medio durante 20-25 minutos hasta que estén tiernas."
+      },
+      {
+        "order": 4,
+        "text": "Tritura con una batidora de mano hasta obtener una crema suave."
+      },
+      {
+        "order": 5,
+        "text": "Añade el aceite y sirve tibio (nunca muy caliente, mejor a temperatura ambiente)."
+      }
+    ],
+    "bridgeFood": "Puré de patata",
+    "bridgeFoodTips": [
+      "Si el niño come puré de patata, empieza sustituyendo un 10% de la patata por calabaza. Ve aumentando gradualmente.",
+      "Si come sopa de verduras, esta crema es un paso intermedio hacia texturas más espesas.",
+      "Si come galletas saladas, prueba ofrecer la crema como \"salsa\" para mojar, y convierte la experiencia en un juego de inmersión."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura bien hasta que quede completamente lisa. Si es necesario, pasa por un colador fino. Ideal para niños con hipersensibilidad a los grumos."
+      },
+      "trocitos": {
+        "description": "Reserva algunos trocitos de calabaza y zanahoria antes de triturar, y mézclalos luego con la crema. Transición hacia texturas más complejas."
+      },
+      "crocante": {
+        "description": "Hornea unos dados de calabaza con un poco de aceite hasta que estén crujientes y sírvelos como \"croutons\" sobre la crema. Para añadir contraste de textura."
+      }
+    },
+    "sensoryTip": "El color naranja intenso puede ser atractivo o rechazado. Si el color es un problema, prueba añadir un poco de puré de patata (blanco) para suavizar el tono."
+  },
+  {
+    "id": "R-05",
+    "name": "Macarrones con Queso (Versión Expandible)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 20,
+    "image": "/content-assets/recetas/r-05.jpg",
+    "ingredients": [
+      {
+        "name": "macarrones (o la pasta que tu hijo acepte)",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "queso cheddar o gouda (rallado)",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "leche (de vaca o vegetal)",
+        "quantity": "200",
+        "unit": "ml"
+      },
+      {
+        "name": "harina de trigo o maíz",
+        "quantity": "1",
+        "unit": "cucharada"
+      },
+      {
+        "name": "mantequilla (o aceite)",
+        "quantity": "1",
+        "unit": "cucharada"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Cocina la pasta según las instrucciones del paquete. Escurre."
+      },
+      {
+        "order": 2,
+        "text": "En una sartén, derrite la mantequilla, añade la harina y mezcla."
+      },
+      {
+        "order": 3,
+        "text": "Añade poco a poco la leche, removiendo hasta que espese (salsa bechamel)."
+      },
+      {
+        "order": 4,
+        "text": "Añade el queso rallado y mezcla hasta que se derrita."
+      },
+      {
+        "order": 5,
+        "text": "Mezcla la salsa con la pasta. Sirve tibio."
+      }
+    ],
+    "bridgeFood": "Pasta simple",
+    "bridgeFoodTips": [
+      "Esta es una de las recetas más versátiles para el food chaining: Pasta macarrones de marca A → macarrones de marca B (misma forma) → Ya come la pasta, cambia solo la marca Macarrones → espirales o penne (cambia la forma) → Introduce nuevas formas Salsa de queso → salsa de queso con 1 cucharada de puré de calabaza → Introduce un nuevo sabor minimizando el cambio"
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura la pasta con la salsa hasta obtener una textura de puré (tipo crema de pasta). Si tu hijo rechaza texturas sólidas."
+      },
+      "trocitos": {
+        "description": "Cocina la pasta cortada en trozos muy pequeños, casi como el arroz. Para niños que empiezan a tolerar sólidos."
+      },
+      "crocante": {
+        "description": "Añade pan rallado por encima y gratina al horno. La capa crujiente aporta contraste. Para niños amantes del crujiente."
+      }
+    },
+    "sensoryTip": "Si el niño rechaza la salsa por su color (blanco o amarillo), prueba añadir una cucharada de puré de tomate para darle color naranja o rojo. Salsa de queso → salsa de queso con puré de brócoli → Sigue ampliando sabores Salsa de queso → salsa de tomate suave → Cambia el color y el sabor"
+  },
+  {
+    "id": "R-06",
+    "name": "Tortitas de Plátano (3 Ingredientes)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 10,
+    "image": "/content-assets/recetas/r-06.jpg",
+    "ingredients": [
+      {
+        "name": "plátano maduro",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "huevos",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "harina de avena (o la que acepte tu hijo)",
+        "quantity": "2",
+        "unit": "cucharadas"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "En un bol, aplasta el plátano con un tenedor hasta hacer un puré."
+      },
+      {
+        "order": 2,
+        "text": "Añade los huevos y la harina. Mezcla bien."
+      },
+      {
+        "order": 3,
+        "text": "Calienta una sartén con un poco de aceite."
+      },
+      {
+        "order": 4,
+        "text": "Vierte pequeñas porciones de la mezcla (como tortitas pequeñas)."
+      },
+      {
+        "order": 5,
+        "text": "Cocina 2-3 minutos por cada lado hasta que estén doradas."
+      }
+    ],
+    "bridgeFood": "Panqueques tradicionales",
+    "bridgeFoodTips": [
+      "Si tu hijo ya come tortitas tradicionales, esta receta cambia solo el sabor, manteniendo la textura familiar.",
+      "Si tu hijo ya come plátano solo, prueba ofrecerlo en la tortita como forma de exponerlo a una nueva presentación.",
+      "Si tu hijo no acepta ninguna de las dos versiones, prueba ofrecer solo la masa cruda (sin huevo) como actividad sensorial de \"cocina sin expectativas\"."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Aumenta la cantidad de plátano y reduce la harina para que quede más cremoso. Para niños que prefieren texturas suaves."
+      },
+      "trocitos": {
+        "description": "Añade trocitos muy pequeños de plátano o fruta a la masa. Introduce pequeñas variaciones de textura."
+      },
+      "crocante": {
+        "description": "Añade copos de cereales triturados a la masa o espolvoréalos por encima antes de cocinar. Aporta el sonido crujiente que tanto gusta a algunos niños."
+      }
+    },
+    "sensoryTip": "El plátano tiene una textura que algunos niños rechazan. Si es el caso, prueba con la tortita ya cocinada, que tiene una textura diferente."
+  },
+  {
+    "id": "R-07",
+    "name": "Zumo o Batido de Frutas Oculto",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 5,
+    "image": "/content-assets/recetas/r-07.jpg",
+    "ingredients": [
+      {
+        "name": "plátano",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "manzana (o pera)",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "leche (de vaca o vegetal) o zumo de naranja",
+        "quantity": "200",
+        "unit": "ml"
+      },
+      {
+        "name": "espinacas (¡no se notan!)",
+        "quantity": "Un",
+        "unit": "puñado"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pela la fruta y córtala en trozos."
+      },
+      {
+        "order": 2,
+        "text": "Pon todos los ingredientes en la batidora."
+      },
+      {
+        "order": 3,
+        "text": "Tritura hasta obtener una mezcla homogénea y suave."
+      },
+      {
+        "order": 4,
+        "text": "Sirve en un vaso (puedes añadir una pajita o un colorante natural para hacerlo más divertido)."
+      }
+    ],
+    "bridgeFood": "Zumo de frutas (el que ya toma)",
+    "bridgeFoodTips": [
+      "Si tu hijo ya toma zumo de manzana o naranja, añade un trozo de plátano la primera vez. La próxima, añade un trozo más.",
+      "Si ya toma batidos de leche con fruta, prueba añadir una hoja de espinaca (no se nota el sabor).",
+      "Si ya come purés de fruta, este batido es un paso hacia texturas más líquidas."
+    ],
+    "textures": {
+      "pure": {
+        "description": "La textura estándar. Batido suave y líquido. Ideal para primeros contactos."
+      },
+      "trocitos": {
+        "description": "Añade trocitos de fruta (sin triturar) al fondo del vaso. Introduce la fruta sólida de forma gradual."
+      },
+      "crocante": {
+        "description": "Añade cereales crujientes o semillas de chía (que aportan textura) por encima. Para niños amantes del crocante."
+      }
+    },
+    "sensoryTip": "El color verde de las espinacas puede asustar. Si es el caso, empieza con frutas de color similar (pera, manzana) para que el color no cambie."
+  },
+  {
+    "id": "R-08",
+    "name": "Pizza de Verduras (¡Sí, es posible!)",
+    "category": "Recetas Amigables",
+    "difficulty": "media",
+    "timeMinutes": 40,
+    "image": "/content-assets/recetas/r-08.jpg",
+    "ingredients": [
+      {
+        "name": "base de pizza (puede ser de las que compra en el supermercado)",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "Salsa de tomate (la que acepte el niño)",
+        "quantity": "",
+        "unit": ""
+      },
+      {
+        "name": "Queso rallado (el que acepte)",
+        "quantity": "",
+        "unit": ""
+      },
+      {
+        "name": "Verduras variadas (calabacín, pimiento, champiñones, etc., cortados muy pequeños)",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Extiende la base de pizza en una bandeja de horno."
+      },
+      {
+        "order": 2,
+        "text": "Unta una capa fina de salsa de tomate."
+      },
+      {
+        "order": 3,
+        "text": "Espolvorea el queso rallado por encima."
+      },
+      {
+        "order": 4,
+        "text": "Coloca las verduras cortadas en trozos pequeños sobre la pizza (¡que el niño participe!)."
+      },
+      {
+        "order": 5,
+        "text": "Hornea a 200°C durante 15-20 minutos hasta que esté dorada."
+      }
+    ],
+    "bridgeFood": "Pizza tradicional",
+    "bridgeFoodTips": [
+      "Si tu hijo ya come pizza de queso y tomate, empieza añadiendo un solo trocito muy pequeño de calabacín. Solo uno. Sin presión.",
+      "Si come salsa de tomate, prueba usarla como \"salsa para mojar\" pan o palitos de verduras crudas."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Ralla las verduras o tritúralas y mézclalas con la salsa de tomate. La textura será suave. Para niños que rechazan trozos."
+      },
+      "trocitos": {
+        "description": "Corta las verduras en dados muy pequeños y espolvoréalos sobre la pizza. Paso intermedio hacia texturas más grandes."
+      },
+      "crocante": {
+        "description": "Corta las verduras en rodajas finas y ásalas separadamente hasta que estén crujientes, luego añádelas a la pizza. Para amantes del crocante."
+      }
+    },
+    "sensoryTip": "El queso derretido tiene una textura pegajosa que algunos niños rechazan. Si es el caso, prueba un queso más seco o reduce la cantidad."
+  },
+  {
+    "id": "R-09",
+    "name": "Galletas de Avena y Plátano (Sin Azúcar)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 20,
+    "image": "/content-assets/recetas/r-09.jpg",
+    "ingredients": [
+      {
+        "name": "plátanos maduros",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "copos de avena (o el cereal que acepte tu hijo)",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "canela (opcional)",
+        "quantity": "1",
+        "unit": "cucharada"
+      },
+      {
+        "name": "Frutos secos o chips de chocolate (opcional, para quienes acepten estas texturas)",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Aplasta los plátanos en un bol hasta hacer un puré."
+      },
+      {
+        "order": 2,
+        "text": "Añade la avena y mezcla bien."
+      },
+      {
+        "order": 3,
+        "text": "Añade la canela y los frutos secos o chips si los usas."
+      },
+      {
+        "order": 4,
+        "text": "Forma bolitas y aplástalas ligeramente para hacer galletas."
+      },
+      {
+        "order": 5,
+        "text": "Hornea a 180°C durante 12-15 minutos hasta que estén doradas."
+      }
+    ],
+    "bridgeFood": "Galletas tradicionales",
+    "bridgeFoodTips": [
+      "Si el niño ya come galletas de una marca específica, esta receta es una forma de introducir un alimento con una textura similar pero más nutritiva.",
+      "Si el niño come plátano, la galleta es una nueva presentación de un sabor conocido."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura los copos de avena antes de añadirlos, para que la textura sea más suave. Si el niño rechaza texturas granuladas."
+      },
+      "trocitos": {
+        "description": "Deja los copos de avena enteros y añade pequeños trocitos de fruta seca. Textura intermedia."
+      },
+      "crocante": {
+        "description": "Hornea un poco más para que queden más crujientes. Añade frutos secos troceados para más textura. Para niños que aman lo crujiente."
+      }
+    },
+    "sensoryTip": "Puedes convertir la preparación en un juego: dejar que el niño amase, haga bolitas y las aplaste. La manipulación reduce el miedo al alimento final."
+  },
+  {
+    "id": "R-10",
+    "name": "Sopa de Pollo y Fideos (Suave y Reconfortante)",
+    "category": "Recetas Amigables",
+    "difficulty": "media",
+    "timeMinutes": 45,
+    "image": "/content-assets/recetas/r-10.jpg",
+    "ingredients": [
+      {
+        "name": "pechuga de pollo",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "zanahorias",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "rama de apio (opcional)",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "calabacín pequeño",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "fideos finos (o la pasta que acepte tu hijo)",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "caldo de pollo (o agua con una pastilla de caldo)",
+        "quantity": "1,5",
+        "unit": "litros"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Corta el pollo en trozos pequeños y las verduras en dados."
+      },
+      {
+        "order": 2,
+        "text": "Pon el caldo a calentar en una olla grande."
+      },
+      {
+        "order": 3,
+        "text": "Añade el pollo y las verduras. Cocina 20-25 minutos."
+      },
+      {
+        "order": 4,
+        "text": "Añade los fideos y cocina hasta que estén tiernos."
+      },
+      {
+        "order": 5,
+        "text": "Sirve tibio (nunca muy caliente)."
+      }
+    ],
+    "bridgeFood": "Caldo de pollo",
+    "bridgeFoodTips": [
+      "Si el niño ya come caldo de pollo, añade primero pequeños trocitos de pollo desmenuzado. Luego, añade una zanahoria en trozos muy pequeños.",
+      "Si come puré de verduras, la sopa con trocitos es el paso siguiente."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura toda la sopa con una batidora hasta obtener una crema suave. Para niños que rechazan texturas sólidas."
+      },
+      "trocitos": {
+        "description": "Corta todos los ingredientes en dados muy pequeños. Paso intermedio."
+      },
+      "crocante": {
+        "description": "Añade fideos crujientes (tipo \"snacks\" de fideos) por encima al servir. Para amantes del contraste de texturas."
+      }
+    },
+    "sensoryTip": "El olor de la sopa de pollo suele ser suave y agradable para muchos niños. Puedes usar este punto de partida: invitarle a olerla mientras se cocina, a tocar el caldo con la punta de los dedos."
+  },
+  {
+    "id": "R-11",
+    "name": "Pastel de Carne y Verduras (Muffins de Comida)",
+    "category": "Recetas Amigables",
+    "difficulty": "media",
+    "timeMinutes": 40,
+    "image": "/content-assets/recetas/r-11.jpg",
+    "ingredients": [
+      {
+        "name": "carne picada (la que acepte el niño)",
+        "quantity": "300",
+        "unit": "g"
+      },
+      {
+        "name": "zanahoria (rallada muy fina)",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "calabacín (rallado muy fino)",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "huevo",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "pan rallado",
+        "quantity": "3",
+        "unit": "cucharadas"
+      },
+      {
+        "name": "Salsa de tomate (opcional)",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Precalienta el horno a 180°C."
+      },
+      {
+        "order": 2,
+        "text": "En un bol, mezcla la carne picada con las verduras ralladas, el huevo y el pan rallado."
+      },
+      {
+        "order": 3,
+        "text": "Amasa bien con las manos (¡que el niño participe!)."
+      },
+      {
+        "order": 4,
+        "text": "Forma bolitas o muffins y colócalos en una bandeja de horno."
+      },
+      {
+        "order": 5,
+        "text": "Hornea 25 minutos. Sirve con un poco de salsa de tomate para mojar."
+      }
+    ],
+    "bridgeFood": "Hamburguesas o croquetas",
+    "bridgeFoodTips": [
+      "Si el niño come hamburguesas o albóndigas, esta receta es similar pero con verduras ocultas.",
+      "Si come paté de carne, el paso hacia la carne sólida empieza por aquí."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura la mezcla después de cocinada para obtener una textura de paté. Si el niño rechaza texturas sólidas."
+      },
+      "trocitos": {
+        "description": "Cocina las verduras en trozos pequeños y mézclalas con la carne picada sin triturar. Paso intermedio."
+      },
+      "crocante": {
+        "description": "Pasa los muffins por pan rallado antes de hornear para darles un exterior crujiente. Para amantes del crujiente."
+      }
+    },
+    "sensoryTip": "La ralladura de verduras es una buena forma de introducir nuevos sabores sin que la textura cambie demasiado. Empieza con una cucharada de verdura rallada y ve aumentando gradualmente."
+  },
+  {
+    "id": "R-12",
+    "name": "Helado de Frutas (Fruit Ice)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 5,
+    "image": "/content-assets/recetas/r-12.jpg",
+    "ingredients": [
+      {
+        "name": "plátanos congelados (pelados y congelados)",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "fruta congelada (fresas, mango, la que acepte el niño)",
+        "quantity": "1",
+        "unit": "taza"
+      },
+      {
+        "name": "yogur (opcional)",
+        "quantity": "2",
+        "unit": "cucharadas"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pela los plátanos y córtalos en rodajas. Congélalos (puedes hacerlo con antelación)."
+      },
+      {
+        "order": 2,
+        "text": "Pon los plátanos congelados y el resto de fruta en la batidora."
+      },
+      {
+        "order": 3,
+        "text": "Añade el yogur si lo usas."
+      },
+      {
+        "order": 4,
+        "text": "Tritura hasta obtener una textura cremosa (como un helado \"nice cream\")."
+      },
+      {
+        "order": 5,
+        "text": "Sirve inmediatamente en un bol o cucurucho."
+      }
+    ],
+    "bridgeFood": "Yogur o puré de fruta",
+    "bridgeFoodTips": [
+      "Si el niño ya come yogur, el helado de frutas es un paso hacia la fruta entera.",
+      "Si el niño ya come puré de fruta, el helado con trocitos (textura trocitos) es el siguiente paso."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura hasta que quede completamente liso y cremoso. Ideal para niños que rechazan texturas con trozos."
+      },
+      "trocitos": {
+        "description": "Mezcla la fruta congelada sin triturar del todo, dejando algunos trocitos pequeños. Transición hacia texturas más sólidas."
+      },
+      "crocante": {
+        "description": "Añade frutos secos troceados o cereales crujientes por encima. Para amantes del contraste."
+      }
+    },
+    "sensoryTip": "El frío puede ser un aliado. Muchos niños toleran mejor las frutas congeladas que a temperatura ambiente. La textura cremosa también es familiar y agradable."
+  },
+  {
+    "id": "R-13",
+    "name": "Palitos de Verduras con Salsa",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 10,
+    "image": "/content-assets/recetas/r-13.jpg",
+    "ingredients": [
+      {
+        "name": "Zanahoria",
+        "quantity": "",
+        "unit": ""
+      },
+      {
+        "name": "Pepino (o el vegetal que acepte el niño en crudo)",
+        "quantity": "",
+        "unit": ""
+      },
+      {
+        "name": "Apio (opcional)",
+        "quantity": "",
+        "unit": ""
+      },
+      {
+        "name": "Salsa para mojar (queso crema, hummus, yogur, la que acepte tu hijo)",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Lava bien las verduras."
+      },
+      {
+        "order": 2,
+        "text": "Pela la zanahoria (si el niño la tolera mejor pelada)."
+      },
+      {
+        "order": 3,
+        "text": "Corta todas las verduras en palitos (barras) de tamaño fácil de coger."
+      },
+      {
+        "order": 4,
+        "text": "Coloca los palitos en un plato junto a la salsa para mojar."
+      },
+      {
+        "order": 5,
+        "text": "¡A jugar! Puede mojar, chupar, o simplemente tocar."
+      }
+    ],
+    "bridgeFood": "Palitos de pan o crackers",
+    "bridgeFoodTips": [
+      "Si el niño come palitos de pan o crackers, esta receta cambia el \"instrumento\" de moje, pero mantiene la acción de mojar.",
+      "Si come zanahoria cocida, probar la zanahoria cruda (crujiente) es un cambio de textura. La salsa puede ser lo que ya acepte: ketchup, mayonesa, queso crema... la verdura es la novedad."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Ralla las verduras o haz una crema tipo \"hummus\" con ellas (zanahoria hervida triturada). Si el niño solo tolera texturas suaves."
+      },
+      "trocitos": {
+        "description": "Corta las verduras en cubos pequeños en lugar de palitos. Para niños que no toleran la forma de palito."
+      },
+      "crocante": {
+        "description": "Cocina los palitos de zanahoria o calabacín al horno (180°C, 15 min) hasta que estén crujientes. Para amantes del crujiente."
+      }
+    },
+    "sensoryTip": "El palito de verdura cruda tiene un sonido crujiente que muchos niños disfrutan. Aprovecha esa sensación auditiva como entrada sensorial positiva."
+  },
+  {
+    "id": "R-14",
+    "name": "Frittata de Verduras (Tortilla de Verduras)",
+    "category": "Recetas Amigables",
+    "difficulty": "media",
+    "timeMinutes": 25,
+    "image": "/content-assets/recetas/r-14.jpg",
+    "ingredients": [
+      {
+        "name": "huevos",
+        "quantity": "6",
+        "unit": ""
+      },
+      {
+        "name": "calabacín (rallado o cortado en dados pequeños)",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "zanahoria (rallada)",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "tomate (sin piel y en trocitos)",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "Sal (opcional)",
+        "quantity": "",
+        "unit": ""
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Lava bien el calabacín y la zanahoria. Pela la zanahoria."
+      },
+      {
+        "order": 2,
+        "text": "Ralla la zanahoria y el calabacín con un rallador fino (¡que el niño participe si quiere!)."
+      },
+      {
+        "order": 3,
+        "text": "Pela el tomate (sumérgelo en agua caliente 1 minuto para que la piel se desprenda fácilmente) y córtalo en trocitos muy pequeños."
+      },
+      {
+        "order": 4,
+        "text": "En un bol grande, bate los huevos con un tenedor hasta que estén espumosos. Añade una pizca de sal si se usa."
+      },
+      {
+        "order": 5,
+        "text": "Añade las verduras ralladas y los trocitos de tomate al bol. Mezcla bien con una cuchara."
+      },
+      {
+        "order": 6,
+        "text": "Calienta una sartén antiadherente con un chorrito de aceite a fuego medio."
+      },
+      {
+        "order": 7,
+        "text": "Vierte la mezcla en la sartén y extiéndela uniformemente."
+      }
+    ],
+    "bridgeFood": "Tortilla de patata",
+    "bridgeFoodTips": [
+      "Tortilla de patata (tradicional): ya es un alimento aceptado."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura la frittata cocinada con un poco de leche o caldo hasta obtener una crema suave (tipo puré de verduras con huevo). Si el niño rechaza cualquier textura sólida o con grumos. Es una excelente manera de introducir el sabor de las verduras sin la presión de masticar."
+      },
+      "trocitos": {
+        "description": "En lugar de rallar las verduras, córtalas en dados muy pequeños (del tamaño de un grano de arroz). Cocina la frittata y luego córtala en cubos pequeños para que el niño pueda cogerlos con los dedos. Cuando el niño ya tolera texturas con pequeñas variaciones y está listo para pasar del puré a alimentos más sólidos."
+      },
+      "crocante": {
+        "description": ""
+      }
+    },
+    "sensoryTip": "Olor: El huevo cocinado tiene un olor suave y familiar para la mayoría de los niños. Si el niño es hipersensible a los olores, cocina la frittata con la ventana abierta para ventilar. El olor es una de las primeras barreras sensoriales. Reducir su intensidad facilita la aceptación. Color: La frittata tiene un color amarillo-dorado con vetas naranjas (zanahoria) y verdes (táctil."
+  },
+  {
+    "id": "R-15",
+    "name": "Sopa de Calabaza y Jengibre (Suave y Calmante)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 30,
+    "image": "/content-assets/recetas/r-15.jpg",
+    "ingredients": [
+      {
+        "name": "calabaza",
+        "quantity": "500",
+        "unit": "g"
+      },
+      {
+        "name": "zanahorias",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "patata pequeña",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "trozo pequeño de jengibre (opcional, para quienes toleren sabores suaves)",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "caldo de verduras",
+        "quantity": "500",
+        "unit": "ml"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pela y corta la calabaza, zanahorias y patata en trozos medianos."
+      },
+      {
+        "order": 2,
+        "text": "Ponlas en una olla con el caldo y el jengibre (si se usa)."
+      },
+      {
+        "order": 3,
+        "text": "Cocina a fuego medio 20-25 minutos hasta que estén tiernas."
+      },
+      {
+        "order": 4,
+        "text": "Tritura con batidora de mano hasta obtener una crema suave."
+      },
+      {
+        "order": 5,
+        "text": "Sirve tibio (nunca muy caliente) con un chorrito de aceite."
+      }
+    ],
+    "bridgeFood": "Crema de verduras",
+    "bridgeFoodTips": [
+      "Si el niño come puré de patata, sustituye un 10% por calabaza y aumenta gradualmente.",
+      "Si come sopa de verduras, esta crema es un paso intermedio hacia texturas más espesas."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura bien hasta que quede completamente lisa y sin grumos. Ideal para hipersensibilidad a texturas."
+      },
+      "trocitos": {
+        "description": "Reserva algunos trocitos de calabaza antes de triturar y añádelos después. Transición hacia texturas más complejas."
+      },
+      "crocante": {
+        "description": "Hornea dados de calabaza con aceite hasta que estén crujientes y úsalos como \"croutons\". Para niños que aman el contraste de texturas."
+      }
+    },
+    "sensoryTip": "El color naranja intenso puede ser atractivo o rechazado. Si el color es un problema, añade un poco de puré de patata (blanco) para suavizar el tono. El jengibre aporta un sabor cálido que algunos niños toleran bien ."
+  },
+  {
+    "id": "R-16",
+    "name": "Hamburguesas de Lentejas y Zanahoria",
+    "category": "Recetas Amigables",
+    "difficulty": "media",
+    "timeMinutes": 35,
+    "image": "/content-assets/recetas/r-16.jpg",
+    "ingredients": [
+      {
+        "name": "lentejas cocidas (escurridas)",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "zanahoria rallada",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "huevo",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "pan rallado",
+        "quantity": "3",
+        "unit": "cucharadas"
+      },
+      {
+        "name": "Especias suaves (orégano, albahaca)",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "En un bol, aplasta las lentejas con un tenedor."
+      },
+      {
+        "order": 2,
+        "text": "Añade la zanahoria rallada, el huevo y el pan rallado. Mezcla bien."
+      },
+      {
+        "order": 3,
+        "text": "Forma hamburguesas pequeñas con la mezcla."
+      },
+      {
+        "order": 4,
+        "text": "Cocina en una sartén con un poco de aceite hasta que estén doradas."
+      },
+      {
+        "order": 5,
+        "text": "Sirve con el pan que el niño acepte."
+      }
+    ],
+    "bridgeFood": "Hamburguesa de carne",
+    "bridgeFoodTips": [
+      "Si el niño come hamburguesas de carne, esta receta introduce un nuevo ingrediente (lentejas) manteniendo la forma y textura similar.",
+      "Si come croquetas, la versión \"trocitos\" es un paso natural."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura la mezcla cocinada hasta obtener una textura de paté. Si el niño rechaza texturas sólidas."
+      },
+      "trocitos": {
+        "description": "Cocina la mezcla en bolitas pequeñas (tipo albóndigas). Transición hacia texturas más sólidas."
+      },
+      "crocante": {
+        "description": "Pasa las hamburguesas por pan rallado extra antes de cocinarlas. Para amantes del crujiente."
+      }
+    },
+    "sensoryTip": "El color de las lentejas puede ser oscuro. Mezcla con zanahoria rallada para dar un tono más anaranjado y atractivo visualmente ."
+  },
+  {
+    "id": "R-17",
+    "name": "Tortilla de Patata y Calabacín (Versión Suave)",
+    "category": "Recetas Amigables",
+    "difficulty": "media",
+    "timeMinutes": 30,
+    "image": "/content-assets/recetas/r-17.jpg",
+    "ingredients": [
+      {
+        "name": "huevos",
+        "quantity": "4",
+        "unit": ""
+      },
+      {
+        "name": "patata grande",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "calabacín pequeño",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pela la patata y córtala en rodajas finas."
+      },
+      {
+        "order": 2,
+        "text": "Lava el calabacín y córtalo en rodajas finas."
+      },
+      {
+        "order": 3,
+        "text": "Fríe ligeramente la patata y el calabacín en una sartén con aceite."
+      },
+      {
+        "order": 4,
+        "text": "Bate los huevos en un bol y mézclalos con las verduras."
+      },
+      {
+        "order": 5,
+        "text": "Cocina la tortilla a fuego lento hasta que cuaje. Sirve tibia."
+      }
+    ],
+    "bridgeFood": "Tortilla de patata",
+    "bridgeFoodTips": [
+      "Si el niño come tortilla de patata, añade una pequeña cantidad de calabacín rallado la primera vez.",
+      "Si come huevos revueltos, la tortilla es un paso hacia una textura más firme."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura la tortilla con un poco de leche hasta obtener una crema suave. Si el niño rechaza texturas sólidas."
+      },
+      "trocitos": {
+        "description": "Corta las verduras en dados muy pequeños antes de cocinar. Transición hacia texturas más complejas."
+      },
+      "crocante": {
+        "description": "Añade pan rallado por encima antes de dar la vuelta a la tortilla. Para amantes del contraste de texturas."
+      }
+    },
+    "sensoryTip": "El calabacín tiene un sabor muy suave que no altera significativamente el sabor de la tortilla tradicional, lo que lo convierte en un excelente alimento puente ."
+  },
+  {
+    "id": "R-18",
+    "name": "Crepes de Plátano y Avena (Sin Azúcar)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 15,
+    "image": "/content-assets/recetas/r-18.jpg",
+    "ingredients": [
+      {
+        "name": "plátano maduro",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "huevos",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "copos de avena triturados",
+        "quantity": "2",
+        "unit": "cucharadas"
+      },
+      {
+        "name": "Canela (opcional)",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Aplasta el plátano en un bol hasta hacer un puré."
+      },
+      {
+        "order": 2,
+        "text": "Añade los huevos y la avena triturada. Mezcla bien."
+      },
+      {
+        "order": 3,
+        "text": "Calienta una sartén antiadherente con un poco de aceite."
+      },
+      {
+        "order": 4,
+        "text": "Vierte pequeñas porciones de masa y cocina 2-3 minutos por cada lado."
+      },
+      {
+        "order": 5,
+        "text": "Sirve tibio, solo o con un poco de yogur."
+      }
+    ],
+    "bridgeFood": "Tortitas tradicionales",
+    "bridgeFoodTips": [
+      "Si el niño come tortitas tradicionales, esta receta cambia solo el sabor manteniendo la textura familiar.",
+      "Si el niño come plátano solo, la crepe es una nueva presentación de un sabor conocido."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Aumenta el plátano y reduce la avena para una textura más cremosa. Si el niño prefiere texturas suaves."
+      },
+      "trocitos": {
+        "description": "Añade trocitos muy pequeños de fruta a la masa. Introduce pequeñas variaciones."
+      },
+      "crocante": {
+        "description": "Añade copos de cereales triturados a la masa. Para amantes del crujiente."
+      }
+    },
+    "sensoryTip": "Las crepes tienen una textura suave y flexible que muchos niños toleran bien. La canela (opcional) añade un aroma cálido sin ser abrumador ."
+  },
+  {
+    "id": "R-19",
+    "name": "Pudín de Chía y Leche (Versión Suave)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 5,
+    "image": "/content-assets/recetas/r-19.jpg",
+    "ingredients": [
+      {
+        "name": "semillas de chía",
+        "quantity": "3",
+        "unit": "cucharadas"
+      },
+      {
+        "name": "leche (de vaca o vegetal)",
+        "quantity": "200",
+        "unit": "ml"
+      },
+      {
+        "name": "miel o sirope de arce (opcional)",
+        "quantity": "1",
+        "unit": "cucharada"
+      },
+      {
+        "name": "Esencia de vainilla (opcional)",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "En un bol, mezcla las semillas de chía con la leche."
+      },
+      {
+        "order": 2,
+        "text": "Añade la miel y la vainilla si las usas."
+      },
+      {
+        "order": 3,
+        "text": "Remueve bien y deja reposar 10 minutos."
+      },
+      {
+        "order": 4,
+        "text": "Vuelve a remover y refrigera durante al menos 2 horas."
+      },
+      {
+        "order": 5,
+        "text": "Sirve frío, solo o con fruta triturada."
+      }
+    ],
+    "bridgeFood": "Yogur",
+    "bridgeFoodTips": [
+      "Si el niño come yogur, el pudín de chía tiene una textura similar pero más nutritiva.",
+      "Si el niño rechaza la textura de las semillas, la versión \"puré\" elimina la percepción de los grumos."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura el pudín con batidora para eliminar cualquier grumo. Si el niño rechaza texturas granuladas."
+      },
+      "trocitos": {
+        "description": "Añade trocitos muy pequeños de fruta. Introduce variación de textura."
+      },
+      "crocante": {
+        "description": "Añade frutos secos picados o granola por encima. Para amantes del contraste."
+      }
+    },
+    "sensoryTip": "Las semillas de chía son ricas en fibra y ácidos grasos. Su textura gelatinosa puede ser aceptada por muchos niños, especialmente si se sirve frío ."
+  },
+  {
+    "id": "R-20",
+    "name": "Arroz con Leche (Versión Suave y Familiar)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 40,
+    "image": "/content-assets/recetas/r-20.jpg",
+    "ingredients": [
+      {
+        "name": "arroz (preferiblemente redondo)",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "leche (de vaca o vegetal)",
+        "quantity": "500",
+        "unit": "ml"
+      },
+      {
+        "name": "azúcar o edulcorante (opcional)",
+        "quantity": "1",
+        "unit": "cucharada"
+      },
+      {
+        "name": "Canela en rama (para aroma, opcional)",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Lava el arroz y ponlo en una olla con la leche."
+      },
+      {
+        "order": 2,
+        "text": "Añade el azúcar y la canela si las usas."
+      },
+      {
+        "order": 3,
+        "text": "Cocina a fuego bajo, removiendo de vez en cuando, durante 30-35 minutos."
+      },
+      {
+        "order": 4,
+        "text": "Cuando el arroz esté tierno y la leche absorbida, retira del fuego."
+      },
+      {
+        "order": 5,
+        "text": "Sirve tibio o frío."
+      }
+    ],
+    "bridgeFood": "Arroz blanco",
+    "bridgeFoodTips": [
+      "Si el niño come arroz blanco, el arroz con leche añade un sabor familiar y dulce.",
+      "Si el niño toma leche, este plato combina dos alimentos conocidos."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura el arroz con leche hasta obtener una crema suave. Si el niño rechaza texturas con grumos."
+      },
+      "trocitos": {
+        "description": "Cocina el arroz entero sin triturar. Textura estándar."
+      },
+      "crocante": {
+        "description": "Añade frutos secos picados por encima. Para amantes del contraste."
+      }
+    },
+    "sensoryTip": "El arroz con leche tiene un olor suave y familiar que suele ser bien tolerado. La textura cremosa es calmante para muchos niños ."
+  },
+  {
+    "id": "R-21",
+    "name": "Salmón al Horno con Puré de Patata",
+    "category": "Recetas Amigables",
+    "difficulty": "media",
+    "timeMinutes": 35,
+    "image": "/content-assets/recetas/r-21.jpg",
+    "ingredients": [
+      {
+        "name": "salmón (sin espinas)",
+        "quantity": "1",
+        "unit": "filete"
+      },
+      {
+        "name": "patatas medianas",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "",
+        "unit": ""
+      },
+      {
+        "name": "limón (opcional)",
+        "quantity": "Un",
+        "unit": "chorrito"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Precalienta el horno a 180°C."
+      },
+      {
+        "order": 2,
+        "text": "Coloca el salmón en una bandeja de horno con un poco de aceite."
+      },
+      {
+        "order": 3,
+        "text": "Pela las patatas y cocínalas en agua hirviendo hasta que estén tiernas."
+      },
+      {
+        "order": 4,
+        "text": "Hornea el salmón durante 15-20 minutos."
+      },
+      {
+        "order": 5,
+        "text": "Tritura las patatas con un poco de leche y aceite. Sirve el salmón sobre el puré."
+      }
+    ],
+    "bridgeFood": "Pescado blanco",
+    "bridgeFoodTips": [
+      "Si el niño come pescado blanco (merluza), el salmón es un paso hacia un sabor más intenso.",
+      "Si come puré de patata, el salmón desmenuzado sobre el puré introduce un nuevo alimento sin cambiar la base."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura el salmón cocinado y mézclalo con el puré de patata. Si el niño rechaza la textura del pescado."
+      },
+      "trocitos": {
+        "description": "Desmenuza el salmón en trozos pequeños sobre el puré. Transición hacia el pescado entero."
+      },
+      "crocante": {
+        "description": "Añade pan rallado con especias por encima del salmón antes de hornear. Para amantes del crujiente."
+      }
+    },
+    "sensoryTip": "El salmón tiene un olor más intenso que el pescado blanco. Para reducir el olor, cocínalo en papel de aluminio y elige salmón fresco de buena calidad . Si el olor es un problema, comienza con la versión \"puré\" donde el olor queda más disimulado."
+  },
+  {
+    "id": "R-22",
+    "name": "Garbanzos Asados (Snack Crujiente)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 30,
+    "image": "/content-assets/recetas/r-22.jpg",
+    "ingredients": [
+      {
+        "name": "lata de garbanzos cocidos (escurridos y secos)",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "aceite de oliva",
+        "quantity": "1",
+        "unit": "cucharada"
+      },
+      {
+        "name": "Sal suave o especias al gusto (opcional)",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Precalienta el horno a 200°C."
+      },
+      {
+        "order": 2,
+        "text": "Seca bien los garbanzos con un paño (¡que el niño participe!)."
+      },
+      {
+        "order": 3,
+        "text": "Mézclalos con el aceite y las especias en un bol."
+      },
+      {
+        "order": 4,
+        "text": "Extiéndelos en una bandeja de horno."
+      },
+      {
+        "order": 5,
+        "text": "Hornea 20-25 minutos hasta que estén crujientes. Deja enfriar."
+      }
+    ],
+    "bridgeFood": "Frutos secos o patatas fritas",
+    "bridgeFoodTips": [
+      "Si el niño come patatas fritas o frutos secos, los garbanzos asados tienen una textura crujiente similar.",
+      "Si el niño come hummus, la versión \"puré\" es un paso hacia el garbanzo entero."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura los garbanzos cocidos con un poco de aceite y limón (hummus). Si el niño prefiere texturas suaves."
+      },
+      "trocitos": {
+        "description": "Ofrece los garbanzos cocidos enteros sin asar (textura blanda). Transición hacia el crujiente."
+      },
+      "crocante": {
+        "description": "La versión asada, crujiente y salada. Para amantes del \"crunch\"."
+      }
+    },
+    "sensoryTip": "Los garbanzos asados tienen una textura crujiente que muchos niños disfrutan, similar a las patatas fritas pero más nutritivos . Secarlos bien antes de hornear es clave para obtener el punto crujiente."
+  },
+  {
+    "id": "R-23",
+    "name": "Puré de Brócoli y Queso",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 25,
+    "image": "/content-assets/recetas/r-23.jpg",
+    "ingredients": [
+      {
+        "name": "brócoli (solo las flores)",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "patatas",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "queso cheddar o gouda rallado",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Leche o caldo de verduras",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Lava el brócoli y córtalo en trozos pequeños."
+      },
+      {
+        "order": 2,
+        "text": "Pela las patatas y córtalas en trozos."
+      },
+      {
+        "order": 3,
+        "text": "Cocina el brócoli y la patata en agua o caldo hasta que estén tiernos (15-20 min)."
+      },
+      {
+        "order": 4,
+        "text": "Escurre y tritura con la batidora, añadiendo un poco de leche o caldo."
+      },
+      {
+        "order": 5,
+        "text": "Añade el queso rallado y mezcla hasta que se derrita. Sirve tibio."
+      }
+    ],
+    "bridgeFood": "Puré de patata",
+    "bridgeFoodTips": [
+      "Si el niño come puré de patata, añade una pequeña cantidad de brócoli triturado la primera vez. El queso ayuda a camuflar el sabor del brócoli."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura bien hasta que quede completamente liso. Ideal para hipersensibilidad."
+      },
+      "trocitos": {
+        "description": "Reserva algunos trocitos de brócoli antes de triturar y añádelos al final. Transición hacia texturas complejas."
+      },
+      "crocante": {
+        "description": "Hornea algunos floretes de brócoli con aceite hasta que estén crujientes y úsalos como topping. Para contraste de texturas."
+      }
+    },
+    "sensoryTip": "El olor del brócoli cocido puede ser intenso. Cocínalo con las patatas para suavizar el olor. El queso aporta un sabor familiar que enmascara parcialmente el del brócoli ."
+  },
+  {
+    "id": "R-24",
+    "name": "Pan de Plátano y Frutos Secos",
+    "category": "Recetas Amigables",
+    "difficulty": "media",
+    "timeMinutes": 50,
+    "image": "/content-assets/recetas/r-24.jpg",
+    "ingredients": [
+      {
+        "name": "plátanos muy maduros",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "huevos",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "harina (la que acepte el niño)",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "levadura",
+        "quantity": "1",
+        "unit": "cucharada"
+      },
+      {
+        "name": "Frutos secos picados (opcional)",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Precalienta el horno a 180°C."
+      },
+      {
+        "order": 2,
+        "text": "Aplasta los plátanos en un bol hasta hacer un puré."
+      },
+      {
+        "order": 3,
+        "text": "Añade los huevos, la harina y la levadura. Mezcla bien."
+      },
+      {
+        "order": 4,
+        "text": "Añade los frutos secos si los usas."
+      },
+      {
+        "order": 5,
+        "text": "Vierte la mezcla en un molde engrasado y hornea 35-40 minutos."
+      }
+    ],
+    "bridgeFood": "Pan o bizcocho",
+    "bridgeFoodTips": [
+      "Si el niño come pan, el pan de plátano añade un sabor dulce y familiar.",
+      "Si el niño come plátano, el pan de plátano es una nueva presentación de un sabor conocido."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Sirve el pan desmenuzado con un poco de leche (tipo papilla). Si el niño prefiere texturas suaves."
+      },
+      "trocitos": {
+        "description": "Corta el pan en trozos pequeños. Textura estándar."
+      },
+      "crocante": {
+        "description": "Tuesta las rodajas de pan para que queden crujientes. Para amantes del crujiente."
+      }
+    },
+    "sensoryTip": "El pan de plátano tiene un olor dulce y agradable. La textura del pan horneado puede ser una alternativa interesante para niños que rechazan el pan comercial ."
+  },
+  {
+    "id": "R-25",
+    "name": "Crema de Champiñones (Sabor Suave)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 30,
+    "image": "/content-assets/recetas/r-25.jpg",
+    "ingredients": [
+      {
+        "name": "champiñones (blancos, de olor suave)",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "patata",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "cebolla pequeña (opcional)",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "caldo de verduras",
+        "quantity": "500",
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Lava los champiñones y córtalos en láminas."
+      },
+      {
+        "order": 2,
+        "text": "Pela la patata y córtala en trozos."
+      },
+      {
+        "order": 3,
+        "text": "Pon todos los ingredientes en una olla con el caldo."
+      },
+      {
+        "order": 4,
+        "text": "Cocina 20-25 minutos hasta que la patata esté tierna."
+      },
+      {
+        "order": 5,
+        "text": "Tritura con batidora hasta obtener una crema suave. Sirve tibio."
+      }
+    ],
+    "bridgeFood": "Sopa de verduras",
+    "bridgeFoodTips": [
+      "Si el niño come sopa de verduras, la crema de champiñones mantiene una textura similar. El sabor del champiñón es suave y no demasiado intenso."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura bien hasta que quede completamente lisa. Ideal para hipersensibilidad."
+      },
+      "trocitos": {
+        "description": "Reserva algunos champiñones antes de triturar y añádelos después. Transición hacia texturas complejas."
+      },
+      "crocante": {
+        "description": "Añade picatostes o semillas por encima. Para contraste de texturas."
+      }
+    },
+    "sensoryTip": "Los champiñones tienen un olor suave que suele ser bien tolerado. Si el niño rechaza la textura, la versión \"puré\" elimina la percepción de los trozos ."
+  },
+  {
+    "id": "R-26",
+    "name": "Albóndigas de Pollo y Calabacín",
+    "category": "Recetas Amigables",
+    "difficulty": "media",
+    "timeMinutes": 35,
+    "image": "/content-assets/recetas/r-26.jpg",
+    "ingredients": [
+      {
+        "name": "pechuga de pollo picada",
+        "quantity": "300",
+        "unit": "g"
+      },
+      {
+        "name": "calabacín rallado",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "huevo",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "pan rallado",
+        "quantity": "2",
+        "unit": "cucharadas"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "En un bol, mezcla el pollo picado, el calabacín rallado, el huevo y el pan rallado."
+      },
+      {
+        "order": 2,
+        "text": "Forma bolitas pequeñas con la mezcla."
+      },
+      {
+        "order": 3,
+        "text": "Cocina en una sartén con un poco de aceite hasta que estén doradas."
+      },
+      {
+        "order": 4,
+        "text": "Puedes cocinarlas también en salsa de tomate."
+      },
+      {
+        "order": 5,
+        "text": "Sirve con el acompañamiento que el niño acepte."
+      }
+    ],
+    "bridgeFood": "Albóndigas de carne",
+    "bridgeFoodTips": [
+      "Si el niño come albóndigas de carne, esta receta añade calabacín sin cambiar mucho la textura.",
+      "Si come pollo desmenuzado, las albóndigas son una nueva forma de presentación."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura las albóndigas cocinadas con un poco de salsa hasta obtener un paté. Si el niño rechaza texturas sólidas."
+      },
+      "trocitos": {
+        "description": "Cocina las albóndigas en trozos más pequeños. Transición hacia texturas más sólidas."
+      },
+      "crocante": {
+        "description": "Pasa las albóndigas por pan rallado extra antes de cocinar. Para amantes del crujiente."
+      }
+    },
+    "sensoryTip": "El calabacín rallado se integra bien en la carne picada, añadiendo humedad y nutrientes sin alterar significativamente la textura ."
+  },
+  {
+    "id": "R-27",
+    "name": "Tarta de Queso y Frutas (Sin Horno)",
+    "category": "Recetas Amigables",
+    "difficulty": "media",
+    "timeMinutes": 20,
+    "image": "/content-assets/recetas/r-27.jpg",
+    "ingredients": [
+      {
+        "name": "galletas tipo María (o las que acepte el niño)",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "mantequilla derretida",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "queso crema",
+        "quantity": "300",
+        "unit": "g"
+      },
+      {
+        "name": "yogur o leche",
+        "quantity": "200",
+        "unit": "ml"
+      },
+      {
+        "name": "sobre de gelatina neutra",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "Fruta para decorar (la que acepte el niño)",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tritura las galletas hasta hacer migas (¡que el niño participe!)."
+      },
+      {
+        "order": 2,
+        "text": "Mézclalas con la mantequilla y presiona en un molde (base)."
+      },
+      {
+        "order": 3,
+        "text": "Bate el queso crema, el yogur y la gelatina disuelta."
+      },
+      {
+        "order": 4,
+        "text": "Vierte sobre la base y refrigera 2-3 horas."
+      },
+      {
+        "order": 5,
+        "text": "Decora con la fruta que el niño acepte."
+      }
+    ],
+    "bridgeFood": "Yogur",
+    "bridgeFoodTips": [
+      "Si el niño come yogur, la tarta de queso tiene una textura similar más firme.",
+      "Si el niño come galletas, la base es familiar y aceptada."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Sirve la tarta triturada (sin la base) como crema. Si el niño rechaza texturas sólidas."
+      },
+      "trocitos": {
+        "description": "Corta la tarta en porciones pequeñas. Textura estándar."
+      },
+      "crocante": {
+        "description": "Añade frutos secos picados por encima. Para amantes del contraste."
+      }
+    },
+    "sensoryTip": "La textura suave y cremosa de la tarta de queso es calmante y suele ser bien tolerada ."
+  },
+  {
+    "id": "R-28",
+    "name": "Macarrones con Queso y Brócoli (Oculto)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 25,
+    "image": "/content-assets/recetas/r-28.jpg",
+    "ingredients": [
+      {
+        "name": "macarrones (la pasta que acepte el niño)",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "brócoli pequeño",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "queso rallado",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "leche",
+        "quantity": "200",
+        "unit": "ml"
+      },
+      {
+        "name": "harina de maíz",
+        "quantity": "1",
+        "unit": "cucharada"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Cocina la pasta según las instrucciones del paquete."
+      },
+      {
+        "order": 2,
+        "text": "Cocina el brócoli al vapor y tritúralo hasta hacer un puré."
+      },
+      {
+        "order": 3,
+        "text": "En una sartén, haz una salsa bechamel con la leche, harina y queso."
+      },
+      {
+        "order": 4,
+        "text": "Mezcla el puré de brócoli con la salsa."
+      },
+      {
+        "order": 5,
+        "text": "Mezcla la salsa con la pasta y sirve."
+      }
+    ],
+    "bridgeFood": "Macarrones con queso",
+    "bridgeFoodTips": [
+      "Si el niño come macarrones con queso, esta receta añade brócoli \"oculto\" en la salsa. Aumenta gradualmente la cantidad de brócoli."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura la pasta con la salsa hasta obtener una crema. Si el niño rechaza texturas sólidas."
+      },
+      "trocitos": {
+        "description": "Añade trocitos de brócoli en lugar de puré. Transición hacia verduras visibles."
+      },
+      "crocante": {
+        "description": "Añade pan rallado por encima y gratina. Para amantes del crujiente."
+      }
+    },
+    "sensoryTip": "El brócoli en puré se camufla bien en la salsa de queso, manteniendo el sabor familiar de los macarrones con queso ."
+  },
+  {
+    "id": "R-29",
+    "name": "Truchas de Frutas (Helado de Fruta)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 5,
+    "image": "/content-assets/recetas/r-29.jpg",
+    "ingredients": [
+      {
+        "name": "plátanos maduros (pelados y congelados)",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "Fruta congelada (la que acepte el niño)",
+        "quantity": "",
+        "unit": ""
+      },
+      {
+        "name": "yogur o leche",
+        "quantity": "2",
+        "unit": "cucharadas"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Congela los plátanos pelados (4 horas mínimo)."
+      },
+      {
+        "order": 2,
+        "text": "Pon los plátanos y la fruta congelada en la batidora."
+      },
+      {
+        "order": 3,
+        "text": "Añade el yogur o la leche."
+      },
+      {
+        "order": 4,
+        "text": "Tritura hasta obtener una textura cremosa de helado."
+      },
+      {
+        "order": 5,
+        "text": "Sirve inmediatamente como helado."
+      }
+    ],
+    "bridgeFood": "Yogur",
+    "bridgeFoodTips": [
+      "Si el niño come yogur, el helado de fruta es un paso hacia la fruta entera.",
+      "Si el niño come puré de fruta, el helado con trocitos es el siguiente paso."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura bien hasta que quede completamente liso. Ideal para hipersensibilidad."
+      },
+      "trocitos": {
+        "description": "Mezcla la fruta congelada sin triturar del todo, dejando algunos trocitos. Transición hacia texturas más sólidas."
+      },
+      "crocante": {
+        "description": "Añade frutos secos picados por encima. Para contraste de texturas."
+      }
+    },
+    "sensoryTip": "El frío puede ser un aliado. Muchos niños toleran mejor las frutas congeladas que a temperatura ambiente. La textura cremosa también es familiar ."
+  },
+  {
+    "id": "R-30",
+    "name": "Sopa de Tomate (Suave y Dulce)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 30,
+    "image": "/content-assets/recetas/r-30.jpg",
+    "ingredients": [
+      {
+        "name": "kg de tomates maduros",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "zanahoria",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "patata",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "cebolla pequeña (opcional)",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "caldo de verduras",
+        "quantity": "500",
+        "unit": "ml"
+      },
+      {
+        "name": "azúcar (para suavizar la acidez)",
+        "quantity": "Una",
+        "unit": "pizca"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Lava los tomates y córtalos en cuartos."
+      },
+      {
+        "order": 2,
+        "text": "Pela la zanahoria y la patata, y córtalas en trozos."
+      },
+      {
+        "order": 3,
+        "text": "Pon todos los ingredientes en una olla con el caldo y el azúcar."
+      },
+      {
+        "order": 4,
+        "text": "Cocina 25-30 minutos hasta que las verduras estén tiernas."
+      },
+      {
+        "order": 5,
+        "text": "Tritura con batidora hasta obtener una crema suave. Sirve tibio."
+      }
+    ],
+    "bridgeFood": "Sopa de verduras",
+    "bridgeFoodTips": [
+      "Si el niño come sopa de verduras, la sopa de tomate tiene una textura similar con un sabor nuevo. El azúcar ayuda a suavizar la acidez natural del tomate."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura bien y pasa por un colador fino si es necesario. Para hipersensibilidad a grumos."
+      },
+      "trocitos": {
+        "description": "Reserva algunos trocitos de verdura antes de triturar y añádelos después. Transición hacia texturas complejas."
+      },
+      "crocante": {
+        "description": "Añade picatostes o semillas por encima. Para contraste de texturas."
+      }
+    },
+    "sensoryTip": "La sopa de tomate tiene un color rojo vivo que puede ser atractivo o rechazado. La versión \"puré\" es la más fácil de aceptar sensorialmente ."
+  },
+  {
+    "id": "R-31",
+    "name": "Buñuelos de Calabaza",
+    "category": "Recetas Amigables",
+    "difficulty": "media",
+    "timeMinutes": 30,
+    "image": "/content-assets/recetas/r-31.jpg",
+    "ingredients": [
+      {
+        "name": "calabaza (cocida y hecha puré)",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "huevo",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "harina",
+        "quantity": "3",
+        "unit": "cucharadas"
+      },
+      {
+        "name": "Canela (opcional)",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Cocina la calabaza al vapor o hervida y haz un puré."
+      },
+      {
+        "order": 2,
+        "text": "En un bol, mezcla el puré de calabaza, el huevo, la harina y la canela."
+      },
+      {
+        "order": 3,
+        "text": "Calienta una sartén con un poco de aceite."
+      },
+      {
+        "order": 4,
+        "text": "Vierte pequeñas porciones de masa y cocina 2-3 minutos por cada lado."
+      },
+      {
+        "order": 5,
+        "text": "Sirve tibio, solo o con un poco de miel."
+      }
+    ],
+    "bridgeFood": "Tortitas",
+    "bridgeFoodTips": [
+      "Si el niño come tortitas, los buñuelos de calabaza tienen una textura similar con nuevo sabor.",
+      "Si el niño come calabaza en puré, los buñuelos son una nueva presentación."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Ofrece el puré de calabaza solo (sin freír). Si el niño prefiere texturas suaves."
+      },
+      "trocitos": {
+        "description": "Haz buñuelos más grandes con trozos de calabaza. Transición hacia texturas más complejas."
+      },
+      "crocante": {
+        "description": "Añade un rebozado extra para que queden más crujientes. Para amantes del crujiente."
+      }
+    },
+    "sensoryTip": "La calabaza tiene un sabor dulce y suave que suele ser bien tolerado. La canela (opcional) aporta un aroma cálido ."
+  },
+  {
+    "id": "R-32",
+    "name": "Pescado Rebozado (Versión Suave)",
+    "category": "Recetas Amigables",
+    "difficulty": "media",
+    "timeMinutes": 30,
+    "image": "/content-assets/recetas/r-32.jpg",
+    "ingredients": [
+      {
+        "name": "merluza (sin espinas)",
+        "quantity": "2",
+        "unit": "filetes"
+      },
+      {
+        "name": "huevo",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "pan rallado",
+        "quantity": "3",
+        "unit": "cucharadas"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Corta el pescado en tiras o trozos pequeños."
+      },
+      {
+        "order": 2,
+        "text": "Bate el huevo en un bol."
+      },
+      {
+        "order": 3,
+        "text": "Pasa cada trozo de pescado por huevo y luego por pan rallado."
+      },
+      {
+        "order": 4,
+        "text": "Cocina en una sartén con un poco de aceite hasta que estén dorados."
+      },
+      {
+        "order": 5,
+        "text": "Sirve tibio, con el acompañamiento que acepte."
+      }
+    ],
+    "bridgeFood": "Nuggets de pollo",
+    "bridgeFoodTips": [
+      "Si el niño come nuggets de pollo, el pescado rebozado tiene una textura similar con un sabor nuevo.",
+      "Si come pescado blanco hervido, el rebozado es un paso hacia nuevas texturas."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Cocina el pescado hervido y tritúralo con un poco de caldo hasta obtener un paté. Si el niño rechaza texturas sólidas."
+      },
+      "trocitos": {
+        "description": "Cocina el pescado en trozos pequeños sin rebozar. Transición hacia texturas más complejas."
+      },
+      "crocante": {
+        "description": "La versión rebozada y frita, crujiente por fuera y tierna por dentro. Para amantes del crujiente."
+      }
+    },
+    "sensoryTip": "La merluza tiene un olor muy suave, lo que la convierte en un buen pescado de inicio para niños con hipersensibilidad olfativa ."
+  },
+  {
+    "id": "R-33",
+    "name": "Crema de Frutas y Leche (Batido Nutritivo)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 5,
+    "image": "/content-assets/recetas/r-33.jpg",
+    "ingredients": [
+      {
+        "name": "plátano",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "leche (de vaca o vegetal)",
+        "quantity": "200",
+        "unit": "ml"
+      },
+      {
+        "name": "Fruta al gusto (la que acepte el niño)",
+        "quantity": "",
+        "unit": ""
+      },
+      {
+        "name": "avena (opcional)",
+        "quantity": "Un",
+        "unit": "puñado"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pela el plátano y la fruta elegida."
+      },
+      {
+        "order": 2,
+        "text": "Pon todos los ingredientes en la batidora."
+      },
+      {
+        "order": 3,
+        "text": "Tritura hasta obtener una mezcla homogénea y suave."
+      },
+      {
+        "order": 4,
+        "text": "Sirve en un vaso, con pajita si el niño lo prefiere."
+      }
+    ],
+    "bridgeFood": "Leche o yogur",
+    "bridgeFoodTips": [
+      "Si el niño toma leche, añade un trozo de plátano la primera vez.",
+      "Si toma yogur, el batido es un paso hacia una textura más líquida."
+    ],
+    "textures": {
+      "pure": {
+        "description": "La textura estándar del batido, suave y líquida. Ideal para primeros contactos."
+      },
+      "trocitos": {
+        "description": "Añade trocitos de fruta sin triturar. Introduce fruta sólida de forma gradual."
+      },
+      "crocante": {
+        "description": "Añade cereales crujientes o semillas por encima. Para amantes del contraste."
+      }
+    },
+    "sensoryTip": "La fruta en batido tiene una textura suave y familiar. Es una excelente manera de introducir nuevas frutas sin la presión de la textura sólida ."
+  },
+  {
+    "id": "R-34",
+    "name": "Puré de Espinacas y Queso",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 25,
+    "image": "/content-assets/recetas/r-34.jpg",
+    "ingredients": [
+      {
+        "name": "espinacas (frescas o congeladas)",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "patatas",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "queso rallado (el que acepte el niño)",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "Leche o caldo",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Lava las espinacas (si son frescas)."
+      },
+      {
+        "order": 2,
+        "text": "Pela las patatas y córtalas en trozos."
+      },
+      {
+        "order": 3,
+        "text": "Cocina las patatas y las espinacas en agua o caldo hasta que estén tiernas (15-20 min)."
+      },
+      {
+        "order": 4,
+        "text": "Escurre y tritura con batidora, añadiendo un poco de leche o caldo."
+      },
+      {
+        "order": 5,
+        "text": "Añade el queso rallado y mezcla hasta que se derrita."
+      }
+    ],
+    "bridgeFood": "Puré de patata",
+    "bridgeFoodTips": [
+      "Si el niño come puré de patata, añade una pequeña cantidad de espinacas trituradas la primera vez. El queso ayuda a camuflar el sabor de las espinacas."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura bien hasta que quede completamente liso. Ideal para hipersensibilidad."
+      },
+      "trocitos": {
+        "description": "Reserva algunas espinacas antes de triturar y añádelas al final. Transición hacia texturas complejas."
+      },
+      "crocante": {
+        "description": "Añade frutos secos picados por encima (si el niño los tolera). Para contraste de texturas."
+      }
+    },
+    "sensoryTip": "Las espinacas tienen un sabor suave, especialmente cuando se mezclan con patata y queso. El color verde puede ser un desafío visual ."
+  },
+  {
+    "id": "R-35",
+    "name": "Galletas de Mantequilla y Fresa (Sin Trozos)",
+    "category": "Recetas Amigables",
+    "difficulty": "media",
+    "timeMinutes": 30,
+    "image": "/content-assets/recetas/r-35.jpg",
+    "ingredients": [
+      {
+        "name": "harina",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "mantequilla a temperatura ambiente",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "azúcar",
+        "quantity": "50",
+        "unit": "g"
+      },
+      {
+        "name": "huevo",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "Puré de fresas (colado) o mermelada de fresa",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Precalienta el horno a 180°C."
+      },
+      {
+        "order": 2,
+        "text": "Mezcla la harina, la mantequilla, el azúcar y el huevo hasta obtener una masa."
+      },
+      {
+        "order": 3,
+        "text": "Añade el puré de fresas y mezcla bien."
+      },
+      {
+        "order": 4,
+        "text": "Extiende la masa y corta galletas con moldes divertidos."
+      },
+      {
+        "order": 5,
+        "text": "Hornea 12-15 minutos hasta que estén doradas."
+      }
+    ],
+    "bridgeFood": "Galletas de mantequilla",
+    "bridgeFoodTips": [
+      "Si el niño come galletas de mantequilla, la versión de fresa añade un nuevo sabor.",
+      "Si el niño come puré de fresa, la galleta es una nueva presentación."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Sirve la masa cruda como una crema (sin hornear). Si el niño prefiere texturas suaves."
+      },
+      "trocitos": {
+        "description": "Añade trocitos muy pequeños de fresa a la masa. Introduce variación de textura."
+      },
+      "crocante": {
+        "description": "La versión horneada, crujiente y dorada. Para amantes del crujiente."
+      }
+    },
+    "sensoryTip": "Las fresas tienen un color rojo atractivo. La versión \"puré\" elimina la textura de los trozos de fruta ."
+  },
+  {
+    "id": "R-36",
+    "name": "Crema de Guisantes (Dulce y Suave)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 20,
+    "image": "/content-assets/recetas/r-36.jpg",
+    "ingredients": [
+      {
+        "name": "guisantes (congelados o frescos)",
+        "quantity": "200",
+        "unit": "g"
+      },
+      {
+        "name": "patata",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "caldo de verduras",
+        "quantity": "500",
+        "unit": "ml"
+      },
+      {
+        "name": "poco de nata o leche (opcional)",
+        "quantity": "Un",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pela la patata y córtala en trozos."
+      },
+      {
+        "order": 2,
+        "text": "Pon los guisantes, la patata y el caldo en una olla."
+      },
+      {
+        "order": 3,
+        "text": "Cocina 15-20 minutos hasta que la patata esté tierna."
+      },
+      {
+        "order": 4,
+        "text": "Tritura con batidora hasta obtener una crema suave."
+      },
+      {
+        "order": 5,
+        "text": "Si se desea, añade un poco de nata o leche para darle cremosidad."
+      }
+    ],
+    "bridgeFood": "Sopa de verduras",
+    "bridgeFoodTips": [
+      "Si el niño come sopa de verduras, la crema de guisantes tiene una textura similar. El sabor dulce de los guisantes suele ser bien aceptado."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura bien hasta que quede completamente lisa. Ideal para hipersensibilidad."
+      },
+      "trocitos": {
+        "description": "Reserva algunos guisantes antes de triturar y añádelos al final. Transición hacia texturas complejas."
+      },
+      "crocante": {
+        "description": "Añade crujientes de jamón o picatostes. Para contraste de texturas."
+      }
+    },
+    "sensoryTip": "Los guisantes tienen un sabor naturalmente dulce y un color verde que puede ser atractivo ."
+  },
+  {
+    "id": "R-37",
+    "name": "Puré de Garbanzos (Hummus Suave)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 5,
+    "image": "/content-assets/recetas/r-37.jpg",
+    "ingredients": [
+      {
+        "name": "lata de garbanzos cocidos (escurridos y enjuagados)",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "aceite de oliva",
+        "quantity": "2",
+        "unit": "cucharadas"
+      },
+      {
+        "name": "limón (opcional, solo si el niño tolera sabores ácidos)",
+        "quantity": "Un",
+        "unit": "chorrito"
+      },
+      {
+        "name": "poco del agua de la lata (para ajustar textura)",
+        "quantity": "Un",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pon los garbanzos en un bol o en la batidora."
+      },
+      {
+        "order": 2,
+        "text": "Añade el aceite de oliva y el agua de la lata."
+      },
+      {
+        "order": 3,
+        "text": "Tritura hasta obtener una textura suave y cremosa."
+      },
+      {
+        "order": 4,
+        "text": "Si se desea, añade limón (con cuidado)."
+      },
+      {
+        "order": 5,
+        "text": "Sirve como untable o salsa para mojar."
+      }
+    ],
+    "bridgeFood": "Queso crema",
+    "bridgeFoodTips": [
+      "Si el niño come queso crema o paté, el hummus tiene una textura similar. Sirve para mojar pan, palitos de verduras o galletas saladas."
+    ],
+    "textures": {
+      "pure": {
+        "description": "La textura estándar del hummus, suave y untuosa. Ideal para primeros contactos."
+      },
+      "trocitos": {
+        "description": "Deja algunos garbanzos sin triturar del todo. Transición hacia texturas más sólidas."
+      },
+      "crocante": {
+        "description": "Añade frutos secos picados por encima. Para contraste de texturas."
+      }
+    },
+    "sensoryTip": "El hummus tiene una textura suave y un sabor neutro (sin limón). Es una excelente manera de introducir legumbres de forma gradual ."
+  },
+  {
+    "id": "R-38",
+    "name": "Patatas Asadas con Aceite (Versión Crujiente)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 40,
+    "image": "/content-assets/recetas/r-38.jpg",
+    "ingredients": [
+      {
+        "name": "patatas medianas",
+        "quantity": "4",
+        "unit": ""
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "",
+        "unit": ""
+      },
+      {
+        "name": "Sal suave (opcional)",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Precalienta el horno a 200°C."
+      },
+      {
+        "order": 2,
+        "text": "Lava bien las patatas (sin pelar, si el niño tolera la piel)."
+      },
+      {
+        "order": 3,
+        "text": "Corta las patatas en gajos o rodajas finas."
+      },
+      {
+        "order": 4,
+        "text": "Mézclalas con el aceite y la sal en un bol."
+      },
+      {
+        "order": 5,
+        "text": "Extiende en una bandeja de horno y hornea 25-30 minutos hasta que estén doradas."
+      }
+    ],
+    "bridgeFood": "Patatas fritas",
+    "bridgeFoodTips": [
+      "Si el niño come patatas fritas, las patatas asadas son una versión más saludable con textura similar.",
+      "Si come puré de patata, la versión \"trocitos\" es el siguiente paso."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Cocina las patatas hervidas y haz un puré. Si el niño prefiere texturas suaves."
+      },
+      "trocitos": {
+        "description": "Cocina las patatas en dados pequeños, hervidas o saltadas. Transición hacia texturas más complejas."
+      },
+      "crocante": {
+        "description": "La versión asada, con la piel crujiente. Para amantes del \"crunch\"."
+      }
+    },
+    "sensoryTip": "La piel de la patata asada aporta una textura crujiente que muchos niños disfrutan. Si la piel es un problema, pela las patatas antes de asarlas ."
+  },
+  {
+    "id": "R-39",
+    "name": "Sopa de Pollo y Verduras (Clásica)",
+    "category": "Recetas Amigables",
+    "difficulty": "media",
+    "timeMinutes": 45,
+    "image": "/content-assets/recetas/r-39.jpg",
+    "ingredients": [
+      {
+        "name": "pechuga de pollo",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "zanahorias",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "calabacín",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "fideos finos",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "caldo de pollo",
+        "quantity": "1,5",
+        "unit": "litros"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Corta el pollo en trozos pequeños y las verduras en dados."
+      },
+      {
+        "order": 2,
+        "text": "Pon el caldo a calentar en una olla grande."
+      },
+      {
+        "order": 3,
+        "text": "Añade el pollo y las verduras. Cocina 20-25 minutos."
+      },
+      {
+        "order": 4,
+        "text": "Añade los fideos y cocina hasta que estén tiernos."
+      },
+      {
+        "order": 5,
+        "text": "Sirve tibio (nunca muy caliente)."
+      }
+    ],
+    "bridgeFood": "Caldo de pollo",
+    "bridgeFoodTips": [
+      "Si el niño come caldo de pollo, añade primero pequeños trocitos de pollo desmenuzado.",
+      "Si come puré de verduras, la sopa con trocitos es el siguiente paso."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura toda la sopa con batidora hasta obtener una crema suave. Si el niño rechaza texturas sólidas."
+      },
+      "trocitos": {
+        "description": "Corta todos los ingredientes en dados muy pequeños. Transición hacia texturas más complejas."
+      },
+      "crocante": {
+        "description": "Añade fideos crujientes por encima al servir. Para contraste de texturas."
+      }
+    },
+    "sensoryTip": "El olor de la sopa de pollo suele ser suave y agradable. La temperatura tibia es la más adecuada ."
+  },
+  {
+    "id": "R-40",
+    "name": "Panqueques de Avena y Plátano (3 Ingredientes)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 15,
+    "image": "/content-assets/recetas/r-40.jpg",
+    "ingredients": [
+      {
+        "name": "plátano maduro",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "huevos",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "harina de avena (o copos de avena triturados)",
+        "quantity": "2",
+        "unit": "cucharadas"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Aplasta el plátano en un bol hasta hacer un puré."
+      },
+      {
+        "order": 2,
+        "text": "Añade los huevos y la harina de avena. Mezcla bien."
+      },
+      {
+        "order": 3,
+        "text": "Calienta una sartén con un poco de aceite."
+      },
+      {
+        "order": 4,
+        "text": "Vierte pequeñas porciones de masa y cocina 2-3 minutos por cada lado."
+      },
+      {
+        "order": 5,
+        "text": "Sirve tibio, solo o con un poco de miel."
+      }
+    ],
+    "bridgeFood": "Panqueques tradicionales",
+    "bridgeFoodTips": [
+      "Si el niño come panqueques tradicionales, esta receta cambia solo el sabor.",
+      "Si el niño come plátano, el panqueque es una nueva presentación."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Aumenta el plátano y reduce la harina para una textura más cremosa. Si el niño prefiere texturas suaves."
+      },
+      "trocitos": {
+        "description": "Añade trocitos muy pequeños de fruta a la masa. Introduce variación de textura."
+      },
+      "crocante": {
+        "description": "Añade copos de cereales triturados a la masa. Para amantes del crujiente."
+      }
+    },
+    "sensoryTip": "Los panqueques tienen una textura suave y esponjosa que suele ser bien tolerada ."
+  },
+  {
+    "id": "R-41",
+    "name": "Crema de Brócoli y Patata",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 30,
+    "image": "/content-assets/recetas/r-41.jpg",
+    "ingredients": [
+      {
+        "name": "brócoli (solo las flores)",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "patatas",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "caldo de verduras",
+        "quantity": "500",
+        "unit": "ml"
+      },
+      {
+        "name": "poco de queso rallado (opcional)",
+        "quantity": "Un",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Lava el brócoli y córtalo en trozos pequeños."
+      },
+      {
+        "order": 2,
+        "text": "Pela las patatas y córtalas en trozos."
+      },
+      {
+        "order": 3,
+        "text": "Pon todo en una olla con el caldo y cocina 20-25 minutos hasta que esté tierno."
+      },
+      {
+        "order": 4,
+        "text": "Tritura con batidora hasta obtener una crema suave."
+      },
+      {
+        "order": 5,
+        "text": "Si se desea, añade queso rallado y mezcla."
+      }
+    ],
+    "bridgeFood": "Puré de patata",
+    "bridgeFoodTips": [
+      "Si el niño come puré de patata, añade una pequeña cantidad de brócoli triturado la primera vez. El queso ayuda a camuflar el sabor."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura bien hasta que quede completamente lisa. Ideal para hipersensibilidad."
+      },
+      "trocitos": {
+        "description": "Reserva algunos trocitos de brócoli antes de triturar. Transición hacia texturas complejas."
+      },
+      "crocante": {
+        "description": "Añade picatostes o semillas. Para contraste de texturas."
+      }
+    },
+    "sensoryTip": "Cocinar el brócoli con patata suaviza su olor. El queso aporta un sabor familiar que enmascara el del brócoli ."
+  },
+  {
+    "id": "R-42",
+    "name": "Albóndigas de Pescado (Merluza)",
+    "category": "Recetas Amigables",
+    "difficulty": "media",
+    "timeMinutes": 35,
+    "image": "/content-assets/recetas/r-42.jpg",
+    "ingredients": [
+      {
+        "name": "merluza (sin espinas)",
+        "quantity": "300",
+        "unit": "g"
+      },
+      {
+        "name": "huevo",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "pan rallado",
+        "quantity": "3",
+        "unit": "cucharadas"
+      },
+      {
+        "name": "zanahoria rallada (opcional)",
+        "quantity": "1",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tritura la merluza con un tenedor hasta desmenuzarla bien."
+      },
+      {
+        "order": 2,
+        "text": "En un bol, mezcla el pescado, el huevo, el pan rallado y la zanahoria rallada."
+      },
+      {
+        "order": 3,
+        "text": "Forma bolitas pequeñas con la mezcla."
+      },
+      {
+        "order": 4,
+        "text": "Cocina en una sartén con un poco de aceite o en el horno (180°C, 15- 20 min)."
+      },
+      {
+        "order": 5,
+        "text": "Sirve con el acompañamiento que acepte."
+      }
+    ],
+    "bridgeFood": "Albóndigas de carne",
+    "bridgeFoodTips": [
+      "Si el niño come albóndigas de carne, las de pescado tienen una textura similar. La zanahoria rallada añade nutrientes sin alterar la textura."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura las albóndigas cocinadas hasta obtener un paté. Si el niño rechaza texturas sólidas."
+      },
+      "trocitos": {
+        "description": "Cocina las albóndigas en trozos más pequeños. Transición hacia texturas más sólidas."
+      },
+      "crocante": {
+        "description": "Pasa las albóndigas por pan rallado extra antes de cocinar. Para amantes del crujiente."
+      }
+    },
+    "sensoryTip": "La merluza tiene un olor muy suave. Si el niño rechaza el olor a pescado, el rebozado y la zanahoria ayudan a disimularlo ."
+  },
+  {
+    "id": "R-43",
+    "name": "Tarta de Manzana (Sin Azúcar)",
+    "category": "Recetas Amigables",
+    "difficulty": "media",
+    "timeMinutes": 45,
+    "image": "/content-assets/recetas/r-43.jpg",
+    "ingredients": [
+      {
+        "name": "manzanas (la variedad que acepte el niño)",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "huevos",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "harina (la que acepte el niño)",
+        "quantity": "150",
+        "unit": "g"
+      },
+      {
+        "name": "levadura",
+        "quantity": "1",
+        "unit": "cucharada"
+      },
+      {
+        "name": "plátano (para endulzar de forma natural)",
+        "quantity": "1",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Precalienta el horno a 180°C."
+      },
+      {
+        "order": 2,
+        "text": "Pela las manzanas y córtalas en rodajas finas."
+      },
+      {
+        "order": 3,
+        "text": "Aplasta el plátano en un bol y añade los huevos, la harina y la levadura."
+      },
+      {
+        "order": 4,
+        "text": "Mezcla bien y añade las manzanas."
+      },
+      {
+        "order": 5,
+        "text": "Vierte en un molde engrasado y hornea 30-35 minutos."
+      }
+    ],
+    "bridgeFood": "Bizcocho",
+    "bridgeFoodTips": [
+      "Si el niño come bizcocho, la tarta de manzana tiene una textura similar.",
+      "Si el niño come manzana, la tarta es una nueva presentación."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Sirve la tarta desmenuzada con un poco de leche. Si el niño prefiere texturas suaves."
+      },
+      "trocitos": {
+        "description": "Corta la tarta en trozos pequeños. Textura estándar."
+      },
+      "crocante": {
+        "description": "Tuesta las porciones de tarta para que queden crujientes. Para amantes del crujiente."
+      }
+    },
+    "sensoryTip": "El olor dulce de la tarta de manzana horneada es muy agradable y suele crear una asociación positiva ."
+  },
+  {
+    "id": "R-44",
+    "name": "Puré de Zanahoria y Calabacín",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 25,
+    "image": "/content-assets/recetas/r-44.jpg",
+    "ingredients": [
+      {
+        "name": "zanahorias",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "calabacín",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "patata",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "poco de leche o caldo",
+        "quantity": "Un",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pela la zanahoria y la patata, y córtalas en trozos."
+      },
+      {
+        "order": 2,
+        "text": "Lava el calabacín y córtalo en rodajas."
+      },
+      {
+        "order": 3,
+        "text": "Cocina las verduras en agua o caldo hasta que estén tiernas (15-20 min)."
+      },
+      {
+        "order": 4,
+        "text": "Escurre y tritura con batidora, añadiendo un poco de leche o caldo."
+      },
+      {
+        "order": 5,
+        "text": "Sirve tibio."
+      }
+    ],
+    "bridgeFood": "Puré de patata",
+    "bridgeFoodTips": [
+      "Si el niño come puré de patata, añade una pequeña cantidad de zanahoria y calabacín la primera vez. Aumenta gradualmente la proporción de verduras."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura bien hasta que quede completamente liso. Ideal para hipersensibilidad."
+      },
+      "trocitos": {
+        "description": "Reserva algunos trocitos de zanahoria y calabacín antes de triturar. Transición hacia texturas complejas."
+      },
+      "crocante": {
+        "description": "Añade frutos secos picados por encima. Para contraste de texturas."
+      }
+    },
+    "sensoryTip": "El calabacín tiene un sabor suave que no altera significativamente el sabor del puré. El color anaranjado de la zanahoria puede hacerlo más atractivo ."
+  },
+  {
+    "id": "R-45",
+    "name": "Galletas de Coco y Plátano",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 25,
+    "image": "/content-assets/recetas/r-45.jpg",
+    "ingredients": [
+      {
+        "name": "plátanos maduros",
+        "quantity": "2",
+        "unit": ""
+      },
+      {
+        "name": "coco rallado",
+        "quantity": "100",
+        "unit": "g"
+      },
+      {
+        "name": "copos de avena",
+        "quantity": "100",
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Precalienta el horno a 180°C."
+      },
+      {
+        "order": 2,
+        "text": "Aplasta los plátanos en un bol hasta hacer un puré."
+      },
+      {
+        "order": 3,
+        "text": "Añade el coco rallado y la avena. Mezcla bien."
+      },
+      {
+        "order": 4,
+        "text": "Forma bolitas y aplástalas ligeramente sobre una bandeja de horno."
+      },
+      {
+        "order": 5,
+        "text": "Hornea 15-20 minutos hasta que estén doradas."
+      }
+    ],
+    "bridgeFood": "Galletas de plátano",
+    "bridgeFoodTips": [
+      "Si el niño come galletas de plátano, esta receta añade coco. El coco rallado aporta una textura interesante."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Sirve la masa cruda como una pasta (sin hornear). Si el niño prefiere texturas suaves."
+      },
+      "trocitos": {
+        "description": "Añade trocitos de plátano a la masa. Introduce variación de textura."
+      },
+      "crocante": {
+        "description": "La versión horneada, crujiente y dorada. Para amantes del crujiente."
+      }
+    },
+    "sensoryTip": "El coco tiene un aroma suave y dulce. La versión \"puré\" elimina la textura granulada del coco ."
+  },
+  {
+    "id": "R-46",
+    "name": "Minipizzas de Pan (Base Rápida)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 15,
+    "image": "/content-assets/recetas/r-46.jpg",
+    "ingredients": [
+      {
+        "name": "pan de molde (el que acepte el niño)",
+        "quantity": "1",
+        "unit": "rebanada"
+      },
+      {
+        "name": "salsa de tomate (la que acepte)",
+        "quantity": "1",
+        "unit": "cucharada"
+      },
+      {
+        "name": "Queso rallado (el que acepte)",
+        "quantity": "",
+        "unit": ""
+      },
+      {
+        "name": "Toppings al gusto (verduras, jamón, etc.)",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Precalienta el horno a 200°C (o usa una tostadora)."
+      },
+      {
+        "order": 2,
+        "text": "Unta la salsa de tomate sobre el pan."
+      },
+      {
+        "order": 3,
+        "text": "Añade el queso rallado y los toppings que el niño elija."
+      },
+      {
+        "order": 4,
+        "text": "Hornea o tuesta hasta que el queso se derrita."
+      },
+      {
+        "order": 5,
+        "text": "Sirve tibio."
+      }
+    ],
+    "bridgeFood": "Pan tostado",
+    "bridgeFoodTips": [
+      "Si el niño come pan tostado, añadir salsa de tomate es el primer paso. El queso derretido puede ayudar a aceptar nuevos toppings."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Sirve la salsa de tomate y el queso en un bol aparte (sin pan). Si el niño rechaza la textura del pan."
+      },
+      "trocitos": {
+        "description": "Corta la minipizza en trozos pequeños. Textura estándar."
+      },
+      "crocante": {
+        "description": "Tuesta el pan antes de añadir los ingredientes para que quede más crujiente. Para amantes del crujiente."
+      }
+    },
+    "sensoryTip": "La minipizza permite al niño elegir los ingredientes, dándole control sobre la comida. La salsa de tomate y el queso son sabores familiares ."
+  },
+  {
+    "id": "R-47",
+    "name": "Ensalada de Frutas (Versión en Puré)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 10,
+    "image": "/content-assets/recetas/r-47.jpg",
+    "ingredients": [
+      {
+        "name": "Frutas variadas (las que acepte el niño)",
+        "quantity": "",
+        "unit": ""
+      },
+      {
+        "name": "poco de zumo de naranja o yogur (opcional)",
+        "quantity": "Un",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Lava y pela las frutas."
+      },
+      {
+        "order": 2,
+        "text": "Corta las frutas en trozos pequeños."
+      },
+      {
+        "order": 3,
+        "text": "Mezcla las frutas en un bol."
+      },
+      {
+        "order": 4,
+        "text": "Si se desea, añade un poco de zumo o yogur."
+      },
+      {
+        "order": 5,
+        "text": "Sirve fresca."
+      }
+    ],
+    "bridgeFood": "Puré de fruta",
+    "bridgeFoodTips": [
+      "Si el niño come puré de fruta, la ensalada de frutas con trocitos muy pequeños es el siguiente paso.",
+      "Si el niño come una fruta concreta, añade otra fruta en trocitos mínimos."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura todas las frutas hasta obtener una textura suave. Ideal para hipersensibilidad."
+      },
+      "trocitos": {
+        "description": "Corta las frutas en dados muy pequeños. Transición hacia frutas enteras."
+      },
+      "crocante": {
+        "description": "Añade frutos secos picados por encima. Para contraste de texturas."
+      }
+    },
+    "sensoryTip": "Las frutas frescas ofrecen una variedad de colores y sabores. La versión \"puré\" es la más fácil de aceptar sensorialmente ."
+  },
+  {
+    "id": "R-48",
+    "name": "Tostada Francesa (Suave y Dulce)",
+    "category": "Recetas Amigables",
+    "difficulty": "facil",
+    "timeMinutes": 15,
+    "image": "/content-assets/recetas/r-48.jpg",
+    "ingredients": [
+      {
+        "name": "pan de molde (el que acepte el niño)",
+        "quantity": "2",
+        "unit": "rebanadas"
+      },
+      {
+        "name": "huevo",
+        "quantity": "1",
+        "unit": ""
+      },
+      {
+        "name": "leche (la que acepte)",
+        "quantity": "50",
+        "unit": "ml"
+      },
+      {
+        "name": "Canela (opcional)",
+        "quantity": "",
+        "unit": ""
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bate el huevo con la leche y la canela en un bol."
+      },
+      {
+        "order": 2,
+        "text": "Remoja el pan en la mezcla durante 1-2 minutos por cada lado."
+      },
+      {
+        "order": 3,
+        "text": "Calienta una sartén con un poco de aceite."
+      },
+      {
+        "order": 4,
+        "text": "Cocina la tostada 2-3 minutos por cada lado hasta que esté dorada."
+      },
+      {
+        "order": 5,
+        "text": "Sirve tibia, sola o con un poco de miel."
+      }
+    ],
+    "bridgeFood": "Pan tostado",
+    "bridgeFoodTips": [
+      "Si el niño come pan tostado, la tostada francesa añade un nuevo sabor y textura.",
+      "Si el niño toma leche, este plato combina un alimento familiar."
+    ],
+    "textures": {
+      "pure": {
+        "description": "Tritura la tostada con un poco de leche hasta obtener una crema. Si el niño prefiere texturas suaves."
+      },
+      "trocitos": {
+        "description": "Corta la tostada en dados pequeños. Textura estándar."
+      },
+      "crocante": {
+        "description": "Tuesta la tostada en el horno después de cocinarla para que quede más crujiente. Para amantes del crujiente."
+      }
+    },
+    "sensoryTip": "La tostada francesa tiene una textura suave y un sabor dulce que suele ser bien aceptado. El olor a canela es cálido y agradable."
+  }
+]

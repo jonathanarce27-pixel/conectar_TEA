@@ -1,0 +1,343 @@
+.regulacion-screen {
+  min-height: 100%;
+  padding: 20px 20px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* Design Brief §9: "Calmarme" puede ser el fondo más calmo de la app. */
+  background: var(--color-salvia-suave);
+}
+
+.regulacion-screen__title {
+  font-size: var(--font-size-titulo);
+  color: var(--color-tinta);
+  text-align: center;
+  margin: 0;
+}
+
+.regulacion-tabs {
+  display: flex;
+  gap: 8px;
+  background: var(--color-crema-honda-app);
+  border-radius: 14px;
+  padding: 4px;
+}
+
+.regulacion-tabs button {
+  flex: 1;
+  min-height: 44px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--color-tinta-suave);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.regulacion-tabs button[aria-selected='true'] {
+  background: var(--color-terracota-app);
+  color: var(--color-crema-app);
+}
+
+.regulacion-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.regulacion-group__title {
+  font-family: var(--font-titulo);
+  font-weight: var(--font-weight-titulo);
+  font-size: 18px;
+  margin: 0;
+}
+
+.regulacion-group__title--respiracion {
+  color: var(--color-salvia-app);
+}
+.regulacion-group__title--presion {
+  color: var(--color-terracota-app);
+}
+.regulacion-group__title--motricidad {
+  color: var(--color-mostaza-app);
+}
+
+.regulacion-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+}
+
+.exercise-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  min-height: 64px;
+  border-radius: 16px;
+  padding: 16px 12px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid var(--color-linea-app);
+  cursor: pointer;
+}
+
+.exercise-card--respiracion {
+  background: var(--color-salvia-suave);
+  color: var(--color-salvia-app);
+}
+.exercise-card--presion {
+  background: var(--color-terracota-suave);
+  color: var(--color-terracota-app);
+}
+.exercise-card--motricidad {
+  background: var(--color-mostaza-suave);
+  color: var(--color-mostaza-app);
+}
+
+.exercise-card__name {
+  color: var(--color-tinta);
+  font-weight: 600;
+  font-size: var(--font-size-cuerpo);
+}
+
+.exercise-card__meta {
+  font-size: var(--font-size-apoyo);
+  color: var(--color-tinta-suave);
+}
+
+.routine-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 64px;
+  border-radius: 16px;
+  padding: 14px 16px;
+  background: var(--color-crema-honda-app);
+  border: 1px solid var(--color-linea-app);
+  color: var(--color-tinta);
+  text-align: left;
+  cursor: pointer;
+}
+
+.routine-card__name {
+  font-family: var(--font-titulo);
+  font-weight: var(--font-weight-titulo);
+  font-size: 17px;
+}
+
+.routine-card__meta {
+  font-size: var(--font-size-apoyo);
+  color: var(--color-tinta-suave);
+}
+
+/* --- Ficha de ejercicio --- */
+.exercise-detail {
+  min-height: 100%;
+  padding: 20px 20px 100px;
+  background: var(--color-salvia-suave);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.exercise-detail__icon {
+  align-self: center;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.exercise-detail__name {
+  font-family: var(--font-titulo);
+  font-weight: var(--font-weight-titulo);
+  font-size: var(--font-size-titulo-grande);
+  color: var(--color-tinta);
+  text-align: center;
+  margin: 0;
+}
+
+.exercise-detail__meta {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  color: var(--color-tinta-suave);
+  font-size: var(--font-size-apoyo);
+}
+
+.exercise-detail__meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.exercise-detail__section-title {
+  font-family: var(--font-titulo);
+  font-weight: var(--font-weight-titulo);
+  font-size: var(--font-size-titulo);
+  color: var(--color-tinta);
+  margin: 0 0 8px;
+}
+
+.exercise-detail__steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.exercise-detail__step {
+  display: flex;
+  gap: 10px;
+  color: var(--color-tinta);
+}
+
+.exercise-detail__step-number {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--color-salvia-app);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: var(--font-size-apoyo);
+}
+
+.exercise-detail__when {
+  background: var(--color-mostaza-suave);
+  border-radius: 14px;
+  padding: 14px 16px;
+  color: var(--color-tinta);
+}
+
+.exercise-detail__action-button {
+  min-height: 56px;
+  border-radius: 14px;
+  border: none;
+  background: var(--color-terracota-app);
+  color: var(--color-crema-app);
+  font-weight: 600;
+  font-size: var(--font-size-cuerpo);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* --- Temporizador --- */
+.exercise-timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 24px 0;
+}
+
+.exercise-timer__display {
+  font-family: var(--font-cuerpo);
+  font-variant-numeric: tabular-nums;
+  font-size: var(--font-size-contador-grande);
+  font-weight: 700;
+  color: var(--color-tinta);
+}
+
+.exercise-timer__controls {
+  display: flex;
+  gap: 12px;
+}
+
+.exercise-timer__button {
+  min-width: 64px;
+  min-height: 64px;
+  border-radius: 50%;
+  border: none;
+  background: var(--color-terracota-app);
+  color: var(--color-crema-app);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.exercise-timer__button--secondary {
+  background: var(--color-crema-honda-app);
+  color: var(--color-terracota-app);
+  border: 1px solid var(--color-linea-app);
+}
+
+.exercise-timer__button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.exercise-timer__done {
+  font-family: var(--font-titulo);
+  font-weight: var(--font-weight-titulo);
+  font-size: var(--font-size-titulo);
+  color: var(--color-salvia-app);
+}
+
+/* --- Reproductor de rutina --- */
+.routine-player {
+  min-height: 100%;
+  padding: 20px 20px 100px;
+  background: var(--color-salvia-suave);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.routine-player__progress {
+  text-align: center;
+  color: var(--color-tinta-suave);
+  font-size: var(--font-size-apoyo);
+}
+
+.routine-player__step {
+  background: var(--color-crema-honda-app);
+  border-radius: 18px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  text-align: center;
+}
+
+.routine-player__step-label {
+  font-family: var(--font-titulo);
+  font-weight: var(--font-weight-titulo);
+  font-size: var(--font-size-titulo);
+  color: var(--color-tinta);
+  margin: 0;
+}
+
+.routine-player__next-button {
+  min-height: 56px;
+  border-radius: 14px;
+  border: none;
+  background: var(--color-terracota-app);
+  color: var(--color-crema-app);
+  font-weight: 600;
+  font-size: var(--font-size-cuerpo);
+  cursor: pointer;
+  padding: 0 24px;
+}
+
+.routine-player__done {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}

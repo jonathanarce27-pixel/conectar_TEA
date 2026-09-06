@@ -1,0 +1,398 @@
+.recetario-screen {
+  min-height: 100%;
+  padding: 20px 20px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: var(--color-crema-app);
+}
+
+.recetario-screen__title {
+  font-size: var(--font-size-titulo);
+  color: var(--color-tinta);
+  text-align: center;
+  margin: 0;
+}
+
+.recetario-tabs {
+  display: flex;
+  gap: 8px;
+  background: var(--color-crema-honda-app);
+  border-radius: 14px;
+  padding: 4px;
+}
+
+.recetario-tabs button {
+  flex: 1;
+  min-height: 44px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--color-tinta-suave);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.recetario-tabs button[aria-selected='true'] {
+  background: var(--color-terracota-app);
+  color: var(--color-crema-app);
+}
+
+.recetario-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  border: 1px solid var(--color-linea-app);
+  border-radius: 14px;
+  padding: 0 14px;
+  background: white;
+  color: var(--color-terracota-app);
+}
+
+.recetario-search input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: var(--font-size-cuerpo);
+  color: var(--color-tinta);
+  background: transparent;
+}
+
+.recetario-texture-filter {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.recetario-texture-filter button {
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid var(--color-linea-app);
+  background: var(--color-crema-honda-app);
+  color: var(--color-tinta-suave);
+  font-size: var(--font-size-apoyo);
+  cursor: pointer;
+}
+
+.recetario-texture-filter button[aria-pressed='true'] {
+  background: var(--color-mostaza-suave);
+  border-color: var(--color-mostaza-app);
+  color: var(--color-tinta);
+  font-weight: 600;
+}
+
+.recetario-empty {
+  text-align: center;
+  color: var(--color-tinta-suave);
+  padding: 24px 0;
+}
+
+.recetario-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 14px;
+}
+
+.recipe-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--color-crema-honda-app);
+  border: 1px solid var(--color-linea-app);
+  text-decoration: none;
+  color: inherit;
+  min-height: 56px;
+}
+
+.recipe-card__image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: var(--color-linea-app);
+}
+
+.recipe-card__image-placeholder {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-terracota-suave);
+  color: var(--color-terracota-app);
+}
+
+.recipe-card__body {
+  padding: 10px 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.recipe-card__name {
+  font-family: var(--font-titulo);
+  font-weight: var(--font-weight-titulo);
+  font-size: 16px;
+  color: var(--color-tinta);
+  margin: 0;
+}
+
+.recipe-card__meta {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: var(--font-size-apoyo);
+  color: var(--color-tinta-suave);
+}
+
+.recipe-card__meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.juice-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  min-height: 56px;
+  border-radius: 16px;
+  padding: 18px 12px;
+  background: var(--color-crema-honda-app);
+  border: 1px solid var(--color-linea-app);
+  text-decoration: none;
+  color: var(--color-terracota-app);
+  text-align: center;
+}
+
+.juice-card__name {
+  color: var(--color-tinta);
+  font-size: var(--font-size-cuerpo);
+  font-weight: 600;
+}
+
+/* --- Ficha de receta/jugo --- */
+.recipe-detail {
+  min-height: 100%;
+  padding: 0 0 100px;
+  background: var(--color-crema-app);
+}
+
+.recipe-detail__hero {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.recipe-detail__hero-placeholder {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-terracota-suave);
+  color: var(--color-terracota-app);
+}
+
+.recipe-detail__body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.recipe-detail__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.recipe-detail__name {
+  font-family: var(--font-titulo);
+  font-weight: var(--font-weight-titulo);
+  font-size: var(--font-size-titulo-grande);
+  color: var(--color-tinta);
+  margin: 0;
+}
+
+.recipe-detail__meta {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  color: var(--color-tinta-suave);
+  font-size: var(--font-size-apoyo);
+}
+
+.recipe-detail__meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.favorite-toggle {
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--color-linea-app);
+  background: white;
+  color: var(--color-linea-app);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.favorite-toggle[aria-pressed='true'] {
+  color: var(--color-coral-app);
+  border-color: var(--color-coral-app);
+  background: var(--color-coral-suave);
+}
+
+.recipe-detail__section-title {
+  font-family: var(--font-titulo);
+  font-weight: var(--font-weight-titulo);
+  font-size: var(--font-size-titulo);
+  color: var(--color-tinta);
+  margin: 0 0 8px;
+}
+
+.recipe-detail__ingredients {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: var(--color-tinta);
+}
+
+.recipe-detail__steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.recipe-detail__step {
+  display: flex;
+  gap: 10px;
+  color: var(--color-tinta);
+}
+
+.recipe-detail__step-number {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--color-terracota-suave);
+  color: var(--color-terracota-app);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: var(--font-size-apoyo);
+}
+
+.recipe-detail__texture-description {
+  background: var(--color-salvia-suave);
+  border-radius: 14px;
+  padding: 14px 16px;
+  color: var(--color-tinta);
+}
+
+.recipe-detail__sensory-tip {
+  background: var(--color-mostaza-suave);
+  border-radius: 14px;
+  padding: 14px 16px;
+  color: var(--color-tinta);
+}
+
+.recipe-detail__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.recipe-detail__action-button {
+  min-height: 56px;
+  border-radius: 14px;
+  border: 1px solid var(--color-linea-app);
+  background: var(--color-crema-honda-app);
+  color: var(--color-tinta);
+  font-weight: 600;
+  font-size: var(--font-size-cuerpo);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* --- Modal genérico (planificador / confirmaciones) --- */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(59, 46, 36, 0.4);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 50;
+}
+
+.modal-sheet {
+  background: var(--color-crema-app);
+  border-radius: 20px 20px 0 0;
+  padding: 24px 20px 32px;
+  width: 100%;
+  max-width: 560px;
+  max-height: 85vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.modal-sheet__title {
+  font-family: var(--font-titulo);
+  font-weight: var(--font-weight-titulo);
+  font-size: var(--font-size-titulo);
+  color: var(--color-tinta);
+  margin: 0;
+}
+
+.modal-select-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.modal-select-row label {
+  font-size: var(--font-size-apoyo);
+  color: var(--color-tinta-suave);
+}
+
+.modal-select-row select {
+  min-height: 48px;
+  border-radius: 12px;
+  border: 1px solid var(--color-linea-app);
+  padding: 0 12px;
+  font-size: var(--font-size-cuerpo);
+  background: white;
+  color: var(--color-tinta);
+}
+
+.modal-confirm-message {
+  background: var(--color-salvia-suave);
+  border-radius: 14px;
+  padding: 16px;
+  color: var(--color-tinta);
+  text-align: center;
+  font-weight: 600;
+}

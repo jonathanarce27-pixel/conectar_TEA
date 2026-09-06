@@ -1,0 +1,64 @@
+/*
+ * Tokens de diseño — Miniapp "Sabores que Conectan con Amor"
+ * Fuente: UIUX-Design-Brief-Miniapp-Sabores.md §4.2 (paleta) y §5 (tipografía).
+ * Un único tema cálido, fijo — sin modo oscuro por defecto (Design Brief §4.3).
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,650&family=Hanken+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Superficies */
+  --color-crema-app: #FAF5EA;
+  --color-crema-honda-app: #F1E9D6;
+
+  /* Acento primario (terracota) */
+  --color-terracota-app: #C2694A;
+  --color-terracota-suave: #F1D9CA;
+
+  /* Acento calma (salvia) */
+  --color-salvia-app: #7C8F68;
+  --color-salvia-suave: #E7EAD9;
+
+  /* Acento de aviso/tip (mostaza) */
+  --color-mostaza-app: #C89A45;
+  --color-mostaza-suave: #F4E6C8;
+
+  /* Acento emocional (coral) */
+  --color-coral-app: #DB7C5E;
+  --color-coral-suave: #F5E0D3;
+
+  /* Atención real — nunca rojo puro (Design Brief §4.3) */
+  --color-rust-atencion: #B0523C;
+
+  /* Texto */
+  --color-tinta: #3B2E24;
+  --color-tinta-suave: #6E5D4D;
+
+  /* Línea / borde */
+  --color-linea-app: #E4D6BA;
+
+  /* Tipografía (Design Brief §5) */
+  --font-titulo: 'Fraunces', Georgia, serif;
+  --font-cuerpo: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-weight-titulo: 650;
+
+  --font-size-titulo: 22px; /* 22-26px en la miniapp */
+  --font-size-titulo-grande: 26px;
+  --font-size-cuerpo: 16px; /* piso mínimo de cuerpo/etiquetas */
+  --font-size-apoyo: 13px; /* piso mínimo de texto de apoyo, nunca por debajo */
+  --font-size-contador: 40px; /* 40-56px, números de temporizador */
+  --font-size-contador-grande: 56px;
+
+  /* Objetivo táctil mínimo (WCAG 2.5.5 / Design Brief §8) */
+  --tap-target-min: 44px;
+  --tap-target-nino: 56px; /* preferido en pantallas dirigidas al niño */
+
+  /* Movimiento (Design Brief §8): solo fundido suave 200-300ms */
+  --transition-fundido: 240ms ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-fundido: 0ms;
+  }
+}
