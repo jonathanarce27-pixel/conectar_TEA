@@ -1,6 +1,6 @@
 import Anthropic from '@anthropic-ai/sdk';
-import { AI_SYSTEM_PROMPT, containsRiskyContent, STANDARD_PROFESSIONAL_REFERRAL_MESSAGE } from '../domain/aiSafety';
-import { checkAndConsume } from './rateLimiter';
+import { AI_SYSTEM_PROMPT, containsRiskyContent, STANDARD_PROFESSIONAL_REFERRAL_MESSAGE } from '../domain/aiSafety.js';
+import { checkAndConsume } from './rateLimiter.js';
 
 // F7 — el único lugar donde vive la clave real de la API de Anthropic (vía
 // variable de entorno del hosting, ver .env.example). El cliente (src/ai/

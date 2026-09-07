@@ -1,4 +1,4 @@
-import { handleAiChatRequest } from '../src/server/aiProxyHandler';
+import { handleAiChatRequest } from '../src/server/aiProxyHandler.js';
 
 // Vercel Function (Node.js runtime, firma Fetch API estándar) — F7. Toda la
 // lógica real vive en src/server/aiProxyHandler.ts para poder probarla con
