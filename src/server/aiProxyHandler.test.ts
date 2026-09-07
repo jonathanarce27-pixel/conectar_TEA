@@ -148,4 +148,26 @@ describe('handleAiChatRequest (proxy — F7)', () => {
     const noMessages = await handleAiChatRequest(makeRequest({ deviceId: 'd7' }), { client });
     expect(noMessages.status).toBe(400);
   });
+
+  // Verificado en producción real (Auditoría de cierre de F7): un fallo
+  // real de la API de Anthropic (ej. saldo insuficiente, caída
+  // transitoria) hacía crashear la función entera sin CORS ni cuerpo
+  // JSON — a diferencia de todos los demás caminos de error de este
+  // archivo. No podía reproducirse con el fakeClient de los tests
+  // anteriores porque ninguno hacía throw.
+  it('si la API de Anthropic falla, responde 502 con CORS y sin filtrar el error interno', async () => {
+    const client = fakeClient(async () => {
+      throw new Error('400 {"error":{"message":"Your credit balance is too low..."}}');
+    });
+
+    const response = await handleAiChatRequest(makeRequest({ deviceId: 'd8', messages: [] }, { origin: ORIGIN }), {
+      client,
+    });
+
+    expect(response.status).toBe(502);
+    expect(response.headers.get('Access-Control-Allow-Origin')).toBe(ORIGIN);
+    const json = await response.json();
+    expect(json.error).toBe('ai_unavailable');
+    expect(JSON.stringify(json)).not.toContain('credit balance');
+  });
 });

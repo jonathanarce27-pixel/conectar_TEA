@@ -99,19 +99,31 @@ export async function handleAiChatRequest(request: Request, deps: AiProxyDepende
 
   const client = deps.client ?? new Anthropic();
 
-  const response = await client.messages.create({
-    model: MODEL,
-    max_tokens: MAX_TOKENS,
-    // El system prompt lo fuerza SIEMPRE el servidor — se ignora
-    // cualquier `system` que mandara el cliente. Es la capa (a) de la
-    // defensa en profundidad, pero vive acá (no solo en aiClient.ts)
-    // porque un llamador que le pegue directo a este endpoint (sin pasar
-    // por la app real) podría mandar cualquier cosa como `system` si el
-    // servidor confiara en ese valor.
-    system: AI_SYSTEM_PROMPT,
-    messages: body.messages,
-    tools: body.tools ?? [],
-  });
+  let response: Anthropic.Message;
+  try {
+    response = await client.messages.create({
+      model: MODEL,
+      max_tokens: MAX_TOKENS,
+      // El system prompt lo fuerza SIEMPRE el servidor — se ignora
+      // cualquier `system` que mandara el cliente. Es la capa (a) de la
+      // defensa en profundidad, pero vive acá (no solo en aiClient.ts)
+      // porque un llamador que le pegue directo a este endpoint (sin pasar
+      // por la app real) podría mandar cualquier cosa como `system` si el
+      // servidor confiara en ese valor.
+      system: AI_SYSTEM_PROMPT,
+      messages: body.messages,
+      tools: body.tools ?? [],
+    });
+  } catch (error) {
+    // Verificado en producción real: sin este try/catch, cualquier error
+    // de la API de Anthropic (saldo insuficiente, rate limit propio de
+    // Anthropic, caída transitoria) hacía que la función entera crasheara
+    // sin headers de CORS ni cuerpo JSON — a diferencia de TODOS los demás
+    // caminos de error de este archivo, que sí devuelven jsonResponse().
+    // No se filtra el mensaje interno del proveedor al cliente.
+    console.error('Fallo al llamar a la API de Anthropic:', error);
+    return jsonResponse({ error: 'ai_unavailable' }, 502, headers);
+  }
 
   const filteredContent = applySafetyFilter(response.content);
   const wasFiltered = filteredContent !== response.content;
