@@ -21,20 +21,22 @@
   outline-offset: 2px;
 }
 
+/* F8, Auditoría 1: ícono suelto (el label tiene su propio color:tinta
+   más abajo) — usa -texto, no -app, para el piso de 3:1 como ícono. */
 .pictogram-button--terracota {
-  color: var(--color-terracota-app);
+  color: var(--color-terracota-texto);
 }
 
 .pictogram-button--salvia {
-  color: var(--color-salvia-app);
+  color: var(--color-salvia-texto);
 }
 
 .pictogram-button--mostaza {
-  color: var(--color-mostaza-app);
+  color: var(--color-mostaza-texto);
 }
 
 .pictogram-button--coral {
-  color: var(--color-coral-app);
+  color: var(--color-coral-texto);
 }
 
 .pictogram-button__label {

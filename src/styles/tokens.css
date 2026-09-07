@@ -30,6 +30,37 @@
   /* Atención real — nunca rojo puro (Design Brief §4.3) */
   --color-rust-atencion: #B0523C;
 
+  /* F8, Auditoría 1: variantes de contraste derivadas de los 4 acentos.
+     Los tonos "-app"/"-suave" de arriba siguen siendo correctos como fondo
+     de superficie grande (Design Brief §4.1) — NO se tocan. Estas 4
+     variantes "-texto" son mismo matiz/saturación, oscurecidas lo mínimo
+     necesario en HSL para llegar a 4.5:1 (texto) y 3:1 (ícono sin texto
+     propio al lado) contra TODOS sus fondos reales (Crema-app,
+     Crema-honda-app, y — según el acento — Salvia-suave/Terracota-suave/
+     Mostaza-suave/Coral-suave donde se usan como texto o ícono real).
+     Regla de uso en toda la app: el tono "-app" nunca va como color de
+     texto ni de ícono suelto; para eso usar siempre la variante "-texto"
+     correspondiente. Ver src/test/contrast.test.ts. */
+  --color-terracota-texto: #974D33;
+  --color-salvia-texto: #5F6D4F;
+  --color-mostaza-texto: #836227;
+  --color-coral-texto: #B14827;
+
+  /* F8, Auditoría 1: variante de contraste SOLO para fondo de botón sólido
+     de "acción principal" (Design Brief §4.1: ese es el rol documentado de
+     Terracota-app). Terracota-app tal cual (3.57:1 con Crema-app, 3.88:1
+     con white) no alcanza 4.5:1 como fondo de texto claro — este tono,
+     mismo matiz/saturación oscurecido lo mínimo necesario (L 52.5% ->
+     45.5%), sí. Se usa ÚNICAMENTE como fondo de botón sólido de acción
+     principal (Continuar del onboarding, acción de ejercicio, "Siguiente
+     paso", "Enviar" del chat IA) — Terracota-app sigue siendo el tono
+     correcto para todo lo demás (acentos, bordes, estado activo de
+     navegación, indicadores/tabs/chips que usan el patrón invertido
+     suave+texto). No unificar con --color-terracota-app ni con
+     --color-terracota-texto en una fase futura: son 3 tonos con roles
+     distintos. Ver src/test/contrast.test.ts. */
+  --color-terracota-cta: #AE583B;
+
   /* Texto */
   --color-tinta: #3B2E24;
   --color-tinta-suave: #6E5D4D;

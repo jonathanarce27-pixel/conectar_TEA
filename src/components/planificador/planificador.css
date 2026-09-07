@@ -27,7 +27,8 @@
   border-radius: 50%;
   border: 1px solid var(--color-linea-app);
   background: var(--color-crema-honda-app);
-  color: var(--color-terracota-app);
+  /* F8, Auditoría 1: glifo ‹/› tratado como texto — usa -texto. */
+  color: var(--color-terracota-texto);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,12 +89,14 @@
   gap: 8px;
 }
 
+/* F8, Auditoría 1: badge indicador (no botón de acción) — Terracota-app
+   sólido + texto claro solo llega a 3.57:1. Se invierte a suave+texto. */
 .planner-day__today-badge {
   font-family: var(--font-cuerpo);
   font-weight: 700;
   font-size: var(--font-size-apoyo);
-  color: var(--color-crema-app);
-  background: var(--color-terracota-app);
+  color: var(--color-terracota-texto);
+  background: var(--color-terracota-suave);
   border-radius: 999px;
   padding: 2px 10px;
 }
@@ -137,7 +140,8 @@
 
 .planner-slot__acceptance {
   font-size: var(--font-size-apoyo);
-  color: var(--color-salvia-app);
+  /* F8, Auditoría 1: texto real — usa -texto. */
+  color: var(--color-salvia-texto);
   font-weight: 600;
 }
 

@@ -30,10 +30,14 @@
   font-size: var(--font-size-cuerpo);
 }
 
+/* F8, Auditoría 1: indicador de selección, no botón de acción —
+   Terracota-app sólido + texto claro solo llega a 3.88:1 con white. Se
+   invierte a fondo suave + texto (4.5:1 garantizado). El borde se deja en
+   -app, no es texto ni ícono de relleno. */
 .chip[data-selected] {
-  background: var(--color-terracota-app);
+  background: var(--color-terracota-suave);
   border-color: var(--color-terracota-app);
-  color: white;
+  color: var(--color-terracota-texto);
 }
 
 .chip:focus-visible {

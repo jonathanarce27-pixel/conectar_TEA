@@ -35,10 +35,13 @@
   max-width: 85%;
 }
 
+/* F8, Auditoría 1: burbuja de mensaje, no botón de acción — Terracota-app
+   sólido + texto claro solo llega a 3.88:1 con white. Se invierte al
+   patrón suave+texto (4.5:1 garantizado, ver contrast.test.ts). */
 .ai-chat-message--user {
   align-self: flex-end;
-  background: var(--color-terracota-app);
-  color: white;
+  background: var(--color-terracota-suave);
+  color: var(--color-terracota-texto);
 }
 
 .ai-chat-message--assistant {
@@ -68,12 +71,14 @@
   font-size: var(--font-size-cuerpo);
 }
 
+/* F8, Auditoría 1: botón de acción principal (Enviar) — usa
+   --terracota-cta, no --terracota-app (3.88:1 con white, falla 4.5:1). */
 .ai-chat-screen__form button {
   min-height: 44px;
   padding: 0 16px;
   border: none;
   border-radius: 12px;
-  background: var(--color-terracota-app);
+  background: var(--color-terracota-cta);
   color: white;
   font-weight: 600;
   cursor: pointer;

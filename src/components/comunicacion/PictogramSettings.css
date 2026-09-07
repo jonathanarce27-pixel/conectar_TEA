@@ -36,6 +36,18 @@
   padding: 10px 14px;
 }
 
+/* F8, Auditoría 2: align-items: center en .pictogram-settings__item
+   centra estos hijos a su tamaño natural en vez de estirarlos — el
+   checkbox+label y el botón "Quitar" medían ~20px reales pese a vivir
+   en una fila de 44px (WCAG 2.5.5). */
+.pictogram-settings__toggle,
+.pictogram-settings__remove {
+  display: flex;
+  align-items: center;
+  min-height: var(--tap-target-min);
+  padding: 0 4px;
+}
+
 .pictogram-settings__add {
   display: flex;
   flex-direction: column;

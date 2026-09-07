@@ -25,7 +25,11 @@
 
 .regulacion-tabs button {
   flex: 1;
-  min-height: 44px;
+  /* F8, Auditoría 2: Calmarme es pantalla "de niño" (Design Brief §8) —
+     necesita el piso de 56-64px, no el genérico de 44px que sí alcanza
+     en pantallas de cuidador (Diario/Historial/Semana). Medido a 44px
+     real antes de esta corrección. */
+  min-height: var(--tap-target-nino);
   border: none;
   border-radius: 10px;
   background: transparent;
@@ -34,9 +38,11 @@
   cursor: pointer;
 }
 
+/* F8, Auditoría 1: indicador de tab activa, no botón de acción — se
+   invierte a suave+texto (Terracota-app sólido solo llega a 3.57:1). */
 .regulacion-tabs button[aria-selected='true'] {
-  background: var(--color-terracota-app);
-  color: var(--color-crema-app);
+  background: var(--color-terracota-suave);
+  color: var(--color-terracota-texto);
 }
 
 .regulacion-group {
@@ -52,14 +58,18 @@
   margin: 0;
 }
 
+/* F8, Auditoría 1: texto real (encabezado de sección) a 18px/650 — no
+   llega al piso de "texto grande" (18.66px bold), así que necesita 4.5:1,
+   no 3:1. Fondo real: Salvia-suave (.regulacion-screen), compartido entre
+   los 3 acentos — usa -texto. */
 .regulacion-group__title--respiracion {
-  color: var(--color-salvia-app);
+  color: var(--color-salvia-texto);
 }
 .regulacion-group__title--presion {
-  color: var(--color-terracota-app);
+  color: var(--color-terracota-texto);
 }
 .regulacion-group__title--motricidad {
-  color: var(--color-mostaza-app);
+  color: var(--color-mostaza-texto);
 }
 
 .regulacion-grid {
@@ -82,17 +92,19 @@
   cursor: pointer;
 }
 
+/* F8, Auditoría 1: ícono suelto (el nombre tiene su propio color:tinta
+   más abajo) — usa -texto. */
 .exercise-card--respiracion {
   background: var(--color-salvia-suave);
-  color: var(--color-salvia-app);
+  color: var(--color-salvia-texto);
 }
 .exercise-card--presion {
   background: var(--color-terracota-suave);
-  color: var(--color-terracota-app);
+  color: var(--color-terracota-texto);
 }
 .exercise-card--motricidad {
   background: var(--color-mostaza-suave);
-  color: var(--color-mostaza-app);
+  color: var(--color-mostaza-texto);
 }
 
 .exercise-card__name {
@@ -198,13 +210,18 @@
   color: var(--color-tinta);
 }
 
+/* F8, Auditoría 1 (hallazgo adicional, detectado en verificación visual
+   real): Salvia-app sólido + white solo llega a 3.51:1 (falla 4.5:1) para
+   este dígito, que es texto real a 13px. Mismo patrón que
+   .recipe-detail__step-number (terracota-suave + terracota-texto): se
+   invierte a suave+texto. */
 .exercise-detail__step-number {
   flex-shrink: 0;
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background: var(--color-salvia-app);
-  color: white;
+  background: var(--color-salvia-suave);
+  color: var(--color-salvia-texto);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -219,11 +236,13 @@
   color: var(--color-tinta);
 }
 
+/* F8, Auditoría 1: botón de acción principal — usa --terracota-cta, no
+   --terracota-app (3.57:1, falla 4.5:1 con texto claro). */
 .exercise-detail__action-button {
   min-height: 56px;
   border-radius: 14px;
   border: none;
-  background: var(--color-terracota-app);
+  background: var(--color-terracota-cta);
   color: var(--color-crema-app);
   font-weight: 600;
   font-size: var(--font-size-cuerpo);
@@ -269,9 +288,10 @@
   cursor: pointer;
 }
 
+/* F8, Auditoría 1: ícono suelto (Reiniciar) — usa -texto. */
 .exercise-timer__button--secondary {
   background: var(--color-crema-honda-app);
-  color: var(--color-terracota-app);
+  color: var(--color-terracota-texto);
   border: 1px solid var(--color-linea-app);
 }
 
@@ -280,11 +300,15 @@
   cursor: not-allowed;
 }
 
+/* F8, Auditoría 1: texto real ("¡Bien hecho!"), 650 no es "bold" (700)
+   canónico y 22px no llega al piso de texto grande con ese peso — se
+   trata como texto normal, 4.5:1. Fondo real: Salvia-suave (tanto en
+   ExerciseDetail como en RoutinePlayer) — usa -texto. */
 .exercise-timer__done {
   font-family: var(--font-titulo);
   font-weight: var(--font-weight-titulo);
   font-size: var(--font-size-titulo);
-  color: var(--color-salvia-app);
+  color: var(--color-salvia-texto);
 }
 
 /* --- Reproductor de rutina --- */
@@ -322,11 +346,12 @@
   margin: 0;
 }
 
+/* F8, Auditoría 1: botón de acción principal — usa --terracota-cta. */
 .routine-player__next-button {
   min-height: 56px;
   border-radius: 14px;
   border: none;
-  background: var(--color-terracota-app);
+  background: var(--color-terracota-cta);
   color: var(--color-crema-app);
   font-weight: 600;
   font-size: var(--font-size-cuerpo);

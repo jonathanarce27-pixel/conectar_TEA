@@ -113,3 +113,51 @@ describe('Regresión offline F1-F6 (criterio de aceptación F7-c)', () => {
     expect(screen.getByRole('dialog', { name: 'Exportar' })).toBeInTheDocument();
   });
 });
+
+// F8, Auditoría 7: el onboarding (Flujo de App §2) también debe recorrerse
+// completo sin red — el beforeEach de arriba precrea un profile completo a
+// propósito para las otras pruebas, así que este caso va aparte, con la
+// base realmente vacía (dispositivo recién instalado).
+describe('Regresión offline — Onboarding completo sin red (F8 Auditoría 7)', () => {
+  afterEach(async () => {
+    await clearAllUserData(db);
+    vi.unstubAllGlobals();
+    window.history.pushState({}, '', '/');
+  });
+
+  beforeEach(async () => {
+    // Defensivo: garantiza una base realmente vacía para este caso puntual,
+    // sin depender del orden de ejecución de los demás describe del archivo.
+    await clearAllUserData(db);
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(() => {
+        throw new Error('RED DESHABILITADA — el onboarding no debería llamarla');
+      }),
+    );
+    vi.stubGlobal('XMLHttpRequest', function () {
+      throw new Error('RED DESHABILITADA — el onboarding no debería llamarla');
+    });
+    Object.defineProperty(window.navigator, 'onLine', { value: false, configurable: true });
+  });
+
+  it('completa los 7 pasos del onboarding sin red y llega a Inicio', async () => {
+    const user = userEvent.setup();
+    render(<App />);
+
+    expect(await screen.findByText('Sabores que Conectan con Amor')).toBeInTheDocument();
+    await user.click(screen.getByRole('button', { name: 'Comenzar' }));
+
+    await user.click(await screen.findByRole('button', { name: 'Ambos' }));
+    await user.click(await screen.findByRole('button', { name: 'Omitir por ahora' }));
+    await user.click(await screen.findByRole('button', { name: 'Omitir por ahora' }));
+    await user.click(await screen.findByRole('button', { name: 'Omitir por ahora' }));
+    await user.click(await screen.findByRole('button', { name: 'Omitir por ahora' }));
+
+    expect(await screen.findByText('Todo listo')).toBeInTheDocument();
+    await user.click(screen.getByRole('button', { name: 'Entrar a Inicio' }));
+
+    expect(await screen.findByText('¿Qué necesitas?')).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Necesita conexión' })).toBeDisabled();
+  });
+});

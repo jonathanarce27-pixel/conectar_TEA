@@ -25,7 +25,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-terracota-app);
+  /* F8, Auditoría 1: ícono suelto, no color de fondo — usa -texto. */
+  color: var(--color-terracota-texto);
 }
 
 .header-lockup__wordmark {
@@ -65,20 +66,22 @@
   opacity: 0.85;
 }
 
+/* F8, Auditoría 1: ícono suelto (el label tiene su propio color:tinta
+   más abajo) — usa -texto, no -app, para el piso de 3:1 como ícono. */
 .home-card--terracota {
-  color: var(--color-terracota-app);
+  color: var(--color-terracota-texto);
 }
 
 .home-card--salvia {
-  color: var(--color-salvia-app);
+  color: var(--color-salvia-texto);
 }
 
 .home-card--mostaza {
-  color: var(--color-mostaza-app);
+  color: var(--color-mostaza-texto);
 }
 
 .home-card--coral {
-  color: var(--color-coral-app);
+  color: var(--color-coral-texto);
 }
 
 .home-card__label {

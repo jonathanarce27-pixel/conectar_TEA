@@ -78,7 +78,7 @@ export function PictogramSettings() {
         {customPictograms.map((pictogram) => (
           <li key={pictogram.id} className="pictogram-settings__item">
             <span>{pictogram.label}</span>
-            <label>
+            <label className="pictogram-settings__toggle">
               <input
                 type="checkbox"
                 checked={pictogram.isActive}
@@ -86,7 +86,11 @@ export function PictogramSettings() {
               />
               Activo
             </label>
-            <button type="button" onClick={() => handleRemove(pictogram.id)}>
+            <button
+              type="button"
+              className="pictogram-settings__remove"
+              onClick={() => handleRemove(pictogram.id)}
+            >
               Quitar
             </button>
           </li>
@@ -107,12 +111,12 @@ export function PictogramSettings() {
             onChange={(e) => handlePhotoChange(e.target.files?.[0])}
           />
         </label>
-        <button type="button" onClick={handleAdd}>
+        <button type="button" className="recipe-detail__action-button" onClick={handleAdd}>
           Añadir alimento nuevo
         </button>
       </div>
 
-      <button type="button" onClick={() => navigate('/comunicar')}>
+      <button type="button" className="recipe-detail__action-button" onClick={() => navigate('/comunicar')}>
         Volver a Comunicación
       </button>
     </main>

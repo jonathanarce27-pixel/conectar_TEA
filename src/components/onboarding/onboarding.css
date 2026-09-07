@@ -26,7 +26,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-terracota-app);
+  /* F8, Auditoría 1: ícono suelto — usa -texto. */
+  color: var(--color-terracota-texto);
 }
 
 .onboarding-step__title {
@@ -65,8 +66,12 @@
   cursor: pointer;
 }
 
+/* F8, Auditoría 1: botón de acción principal (Design Brief §4.1) — usa
+   --terracota-cta, no --terracota-app (3.57:1, falla 4.5:1 con texto
+   claro). Confirmado con el usuario: mismo matiz/saturación, oscurecido
+   lo mínimo necesario. Ver contrast.test.ts. */
 .onboarding-step__primary {
-  background: var(--color-terracota-app);
+  background: var(--color-terracota-cta);
   color: var(--color-crema-app);
   border: none;
 }

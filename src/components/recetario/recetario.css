@@ -33,9 +33,11 @@
   cursor: pointer;
 }
 
+/* F8, Auditoría 1: indicador de tab activa, no botón de acción — se
+   invierte a suave+texto (Terracota-app sólido solo llega a 3.57:1). */
 .recetario-tabs button[aria-selected='true'] {
-  background: var(--color-terracota-app);
-  color: var(--color-crema-app);
+  background: var(--color-terracota-suave);
+  color: var(--color-terracota-texto);
 }
 
 .recetario-search {
@@ -47,16 +49,32 @@
   border-radius: 14px;
   padding: 0 14px;
   background: white;
-  color: var(--color-terracota-app);
+  /* F8, Auditoría 1: ícono de búsqueda suelto — usa -texto. */
+  color: var(--color-terracota-texto);
 }
 
 .recetario-search input {
   flex: 1;
+  /* F8, Auditoría 2: el contenedor .recetario-search medía 48px, pero el
+     <input> real (el elemento que de verdad recibe el toque/foco) medía
+     solo 20px de alto — no está envuelto en un <label>, así que tocar el
+     espacio vacío arriba/abajo del texto dentro de la barra no enfocaba
+     el campo. min-height propio en el input cierra ese hueco. */
+  min-height: var(--tap-target-min);
   border: none;
   outline: none;
   font-size: var(--font-size-cuerpo);
   color: var(--color-tinta);
   background: transparent;
+}
+
+/* F8, Auditoría 4: el outline:none de arriba solo quita el recuadro por
+   defecto del navegador contra el fondo blanco del contenedor — sin esta
+   regla, un usuario de teclado no tenía NINGÚN indicador visual de foco
+   al tabular hasta el buscador (WCAG 2.4.7). */
+.recetario-search:focus-within {
+  outline: 3px solid var(--color-terracota-app);
+  outline-offset: 2px;
 }
 
 .recetario-texture-filter {
@@ -66,7 +84,8 @@
 }
 
 .recetario-texture-filter button {
-  min-height: 40px;
+  /* F8, Auditoría 2: medía 40px real, por debajo del piso de 44px (WCAG 2.5.5). */
+  min-height: var(--tap-target-min);
   padding: 0 14px;
   border-radius: 999px;
   border: 1px solid var(--color-linea-app);
@@ -121,7 +140,8 @@
   align-items: center;
   justify-content: center;
   background: var(--color-terracota-suave);
-  color: var(--color-terracota-app);
+  /* F8, Auditoría 1: ícono placeholder suelto — usa -texto. */
+  color: var(--color-terracota-texto);
 }
 
 .recipe-card__body {
@@ -164,7 +184,9 @@
   background: var(--color-crema-honda-app);
   border: 1px solid var(--color-linea-app);
   text-decoration: none;
-  color: var(--color-terracota-app);
+  /* F8, Auditoría 1: ícono i-glass suelto (el nombre tiene su propio
+     color:tinta más abajo) — usa -texto. */
+  color: var(--color-terracota-texto);
   text-align: center;
 }
 
@@ -194,7 +216,8 @@
   align-items: center;
   justify-content: center;
   background: var(--color-terracota-suave);
-  color: var(--color-terracota-app);
+  /* F8, Auditoría 1: ícono placeholder suelto — usa -texto. */
+  color: var(--color-terracota-texto);
 }
 
 .recipe-detail__body {
@@ -247,8 +270,10 @@
   flex-shrink: 0;
 }
 
+/* F8, Auditoría 1: ícono de estrella suelto — usa -texto para el color;
+   el borde se deja en -app (no es texto ni ícono de relleno). */
 .favorite-toggle[aria-pressed='true'] {
-  color: var(--color-coral-app);
+  color: var(--color-coral-texto);
   border-color: var(--color-coral-app);
   background: var(--color-coral-suave);
 }
@@ -292,7 +317,8 @@
   height: 28px;
   border-radius: 50%;
   background: var(--color-terracota-suave);
-  color: var(--color-terracota-app);
+  /* F8, Auditoría 1: texto real (el dígito del paso) — usa -texto. */
+  color: var(--color-terracota-texto);
   display: flex;
   align-items: center;
   justify-content: center;

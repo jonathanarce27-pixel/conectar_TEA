@@ -44,7 +44,12 @@
   gap: 8px;
 }
 
-.diario-form textarea {
+/* F8, Auditoría 2: el selector era .diario-form textarea, pero ningún
+   elemento real tiene la clase "diario-form" (las secciones usan
+   "diario-form__section") — la regla nunca se aplicaba y el textarea
+   de Observaciones renderizaba a 36px de alto, por debajo del piso
+   táctil de 44px (WCAG 2.5.5). */
+.diario-form__section textarea {
   width: 100%;
   min-height: 80px;
   border: 1px solid var(--color-linea-app);
@@ -74,9 +79,13 @@
   cursor: pointer;
 }
 
+/* F8, Auditoría 1: Terracota-app sólido + texto claro solo llega a 3.57:1
+   (falla 4.5:1). Este es un indicador de estado (tab activa), no un botón
+   de acción principal — se invierte al patrón suave+texto ya usado en
+   avisos, que sí cierra limpio (4.5:1 garantizado, ver contrast.test.ts). */
 .diario-tabs button[aria-selected='true'] {
-  background: var(--color-terracota-app);
-  color: var(--color-crema-app);
+  background: var(--color-terracota-suave);
+  color: var(--color-terracota-texto);
 }
 
 .diario-entry-list {
@@ -117,7 +126,8 @@
 
 .diario-summary__value {
   font-size: var(--font-size-titulo);
-  color: var(--color-terracota-app);
+  /* F8, Auditoría 1: texto real (un número) — usa -texto. */
+  color: var(--color-terracota-texto);
   font-weight: 700;
 }
 
